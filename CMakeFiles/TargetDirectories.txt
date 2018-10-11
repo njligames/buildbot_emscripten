@@ -1,0 +1,13 @@
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/edit_cache.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/install/strip.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/package.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/install.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/list_install_components.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/NJLIC-exe.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/uninstall.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/NJLIC-static.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/NJLIC-lua-swig-bullet3-static.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/rebuild_cache.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/package_source.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/install/local.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/NJLIC-lua-swig-njlic-static.dir

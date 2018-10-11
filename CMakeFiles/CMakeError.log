@@ -1,0 +1,667 @@
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_04782"
+[1/2] Building C object CMakeFiles/cmTC_04782.dir/src.c.o
+FAILED: CMakeFiles/cmTC_04782.dir/src.c.o 
+/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc   -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2 -o CMakeFiles/cmTC_04782.dir/src.c.o   -c src.c
+clang: error: unknown argument: '-mpreferred-stack-boundary=2'
+ERROR:root:compiler frontend failed to generate LLVM bitcode, halting
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_3d289"
+[1/2] Building C object CMakeFiles/cmTC_3d289.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_3d289.js
+FAILED: cmTC_3d289.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=_strrev -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_3d289.dir/CheckFunctionExists.c.o  -o cmTC_3d289.js   && :
+error: unresolved symbol: _strrev
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 95, in emscript
+    glue, forwarded_data = compiler_glue(metadata, settings, libraries, compiler_engine, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 227, in compiler_glue
+    glue, forwarded_data = compile_settings(compiler_engine, settings, libraries, temp_files)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 542, in compile_settings
+    cwd=path_from_root('src'), error_limit=300)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 132, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/compiler.js', '/tmp/tmpEqtdhP.txt', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/library_pthread_stub.js'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..generated code.. }
+// 3. pre-run appended it, var Module = {}; ..generated 
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_e2b0f"
+[1/2] Building C object CMakeFiles/cmTC_e2b0f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_e2b0f.js
+FAILED: cmTC_e2b0f.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=_strupr -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_e2b0f.dir/CheckFunctionExists.c.o  -o cmTC_e2b0f.js   && :
+error: unresolved symbol: _strupr
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 95, in emscript
+    glue, forwarded_data = compiler_glue(metadata, settings, libraries, compiler_engine, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 227, in compiler_glue
+    glue, forwarded_data = compile_settings(compiler_engine, settings, libraries, temp_files)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 542, in compile_settings
+    cwd=path_from_root('src'), error_limit=300)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 132, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/compiler.js', '/tmp/tmpq9F53c.txt', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/library_pthread_stub.js'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..generated code.. }
+// 3. pre-run appended it, var Module = {}; ..generated 
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_a4880"
+[1/2] Building C object CMakeFiles/cmTC_a4880.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a4880.js
+FAILED: cmTC_a4880.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=_strlwr -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_a4880.dir/CheckFunctionExists.c.o  -o cmTC_a4880.js   && :
+error: unresolved symbol: _strlwr
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 95, in emscript
+    glue, forwarded_data = compiler_glue(metadata, settings, libraries, compiler_engine, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 227, in compiler_glue
+    glue, forwarded_data = compile_settings(compiler_engine, settings, libraries, temp_files)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 542, in compile_settings
+    cwd=path_from_root('src'), error_limit=300)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 132, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/compiler.js', '/tmp/tmpXWr94n.txt', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/library_pthread_stub.js'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..generated code.. }
+// 3. pre-run appended it, var Module = {}; ..generated 
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_0ce3d"
+[1/2] Building C object CMakeFiles/cmTC_0ce3d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0ce3d.js
+FAILED: cmTC_0ce3d.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=itoa -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_0ce3d.dir/CheckFunctionExists.c.o  -o cmTC_0ce3d.js   && :
+error: unresolved symbol: itoa
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 95, in emscript
+    glue, forwarded_data = compiler_glue(metadata, settings, libraries, compiler_engine, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 227, in compiler_glue
+    glue, forwarded_data = compile_settings(compiler_engine, settings, libraries, temp_files)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 542, in compile_settings
+    cwd=path_from_root('src'), error_limit=300)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 132, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/compiler.js', '/tmp/tmpGbG5CT.txt', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/library_pthread_stub.js'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..generated code.. }
+// 3. pre-run appended it, var Module = {}; ..generated 
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_d82d4"
+[1/2] Building C object CMakeFiles/cmTC_d82d4.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d82d4.js
+FAILED: cmTC_d82d4.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=_ltoa -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_d82d4.dir/CheckFunctionExists.c.o  -o cmTC_d82d4.js   && :
+error: unresolved symbol: _ltoa
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 95, in emscript
+    glue, forwarded_data = compiler_glue(metadata, settings, libraries, compiler_engine, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 227, in compiler_glue
+    glue, forwarded_data = compile_settings(compiler_engine, settings, libraries, temp_files)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 542, in compile_settings
+    cwd=path_from_root('src'), error_limit=300)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 132, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/compiler.js', '/tmp/tmpiwdwdt.txt', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/library_pthread_stub.js'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..generated code.. }
+// 3. pre-run appended it, var Module = {}; ..generated 
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_d9f72"
+[1/2] Building C object CMakeFiles/cmTC_d9f72.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d9f72.js
+FAILED: cmTC_d9f72.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=_uitoa -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_d9f72.dir/CheckFunctionExists.c.o  -o cmTC_d9f72.js   && :
+error: unresolved symbol: _uitoa
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 95, in emscript
+    glue, forwarded_data = compiler_glue(metadata, settings, libraries, compiler_engine, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 227, in compiler_glue
+    glue, forwarded_data = compile_settings(compiler_engine, settings, libraries, temp_files)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 542, in compile_settings
+    cwd=path_from_root('src'), error_limit=300)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 132, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/compiler.js', '/tmp/tmpq0N3wY.txt', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/library_pthread_stub.js'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..generated code.. }
+// 3. pre-run appended it, var Module = {}; ..generated 
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_e13e7"
+[1/2] Building C object CMakeFiles/cmTC_e13e7.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_e13e7.js
+FAILED: cmTC_e13e7.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=_ultoa -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_e13e7.dir/CheckFunctionExists.c.o  -o cmTC_e13e7.js   && :
+error: unresolved symbol: _ultoa
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 95, in emscript
+    glue, forwarded_data = compiler_glue(metadata, settings, libraries, compiler_engine, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 227, in compiler_glue
+    glue, forwarded_data = compile_settings(compiler_engine, settings, libraries, temp_files)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 542, in compile_settings
+    cwd=path_from_root('src'), error_limit=300)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 132, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/compiler.js', '/tmp/tmpafn17C.txt', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/library_pthread_stub.js'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..generated code.. }
+// 3. pre-run appended it, var Module = {}; ..generated 
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_2f463"
+[1/2] Building C object CMakeFiles/cmTC_2f463.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_2f463.js
+FAILED: cmTC_2f463.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=_i64toa -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_2f463.dir/CheckFunctionExists.c.o  -o cmTC_2f463.js   && :
+error: unresolved symbol: _i64toa
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 95, in emscript
+    glue, forwarded_data = compiler_glue(metadata, settings, libraries, compiler_engine, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 227, in compiler_glue
+    glue, forwarded_data = compile_settings(compiler_engine, settings, libraries, temp_files)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 542, in compile_settings
+    cwd=path_from_root('src'), error_limit=300)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 132, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/compiler.js', '/tmp/tmp_yJzih.txt', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/library_pthread_stub.js'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..generated code.. }
+// 3. pre-run appended it, var Module = {}; ..generated 
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_098e5"
+[1/2] Building C object CMakeFiles/cmTC_098e5.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_098e5.js
+FAILED: cmTC_098e5.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=_ui64toa -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_098e5.dir/CheckFunctionExists.c.o  -o cmTC_098e5.js   && :
+error: unresolved symbol: _ui64toa
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 95, in emscript
+    glue, forwarded_data = compiler_glue(metadata, settings, libraries, compiler_engine, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 227, in compiler_glue
+    glue, forwarded_data = compile_settings(compiler_engine, settings, libraries, temp_files)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 542, in compile_settings
+    cwd=path_from_root('src'), error_limit=300)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 132, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/compiler.js', '/tmp/tmpmw9J0l.txt', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/library_pthread_stub.js'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..generated code.. }
+// 3. pre-run appended it, var Module = {}; ..generated 
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_6aa69"
+[1/2] Building C object CMakeFiles/cmTC_6aa69.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_6aa69.js
+FAILED: cmTC_6aa69.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=_stricmp -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_6aa69.dir/CheckFunctionExists.c.o  -o cmTC_6aa69.js   && :
+error: unresolved symbol: _stricmp
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 95, in emscript
+    glue, forwarded_data = compiler_glue(metadata, settings, libraries, compiler_engine, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 227, in compiler_glue
+    glue, forwarded_data = compile_settings(compiler_engine, settings, libraries, temp_files)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 542, in compile_settings
+    cwd=path_from_root('src'), error_limit=300)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 132, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/compiler.js', '/tmp/tmp6nV9s5.txt', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/library_pthread_stub.js'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..generated code.. }
+// 3. pre-run appended it, var Module = {}; ..generated 
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_da7bf"
+[1/2] Building C object CMakeFiles/cmTC_da7bf.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_da7bf.js
+FAILED: cmTC_da7bf.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=_strnicmp -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_da7bf.dir/CheckFunctionExists.c.o  -o cmTC_da7bf.js   && :
+error: unresolved symbol: _strnicmp
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 95, in emscript
+    glue, forwarded_data = compiler_glue(metadata, settings, libraries, compiler_engine, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 227, in compiler_glue
+    glue, forwarded_data = compile_settings(compiler_engine, settings, libraries, temp_files)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 542, in compile_settings
+    cwd=path_from_root('src'), error_limit=300)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 132, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/compiler.js', '/tmp/tmpCoQxZB.txt', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/library_pthread_stub.js'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..generated code.. }
+// 3. pre-run appended it, var Module = {}; ..generated 
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function setjmp exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_942c8"
+[1/2] Building C object CMakeFiles/cmTC_942c8.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: declaration of built-in function 'setjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS setjmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_942c8.js
+FAILED: cmTC_942c8.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=setjmp -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_942c8.dir/CheckFunctionExists.c.o  -o cmTC_942c8.js   && :
+0  llc                      0x000000010734e1c8 llvm::sys::PrintStackTrace(llvm::raw_ostream&) + 40
+1  llc                      0x000000010734e7f6 SignalHandler(int) + 358
+2  libsystem_platform.dylib 0x00007fff69810f5a _sigtramp + 26
+3  libsystem_platform.dylib 0x00007fbc73813240 _sigtramp + 167781120
+4  llc                      0x0000000106e59ef3 std::__1::pair<llvm::StringMapIterator<llvm::ConstantDataSequential*>, bool> llvm::StringMap<llvm::ConstantDataSequential*, llvm::MallocAllocator>::try_emplace<llvm::ConstantDataSequential*>(llvm::StringRef, llvm::ConstantDataSequential*&&) + 35
+5  llc                      0x0000000106e520c8 llvm::ConstantDataSequential::getImpl(llvm::StringRef, llvm::Type*) + 120
+6  llc                      0x00000001074a7fdf (anonymous namespace)::FlattenGlobals::runOnModule(llvm::Module&) + 2591
+7  llc                      0x0000000106ebbfb8 llvm::legacy::PassManagerImpl::run(llvm::Module&) + 920
+8  llc                      0x0000000106734e79 compileModule(char**, llvm::LLVMContext&) + 11097
+9  llc                      0x0000000106731f5b main + 1163
+10 libdyld.dylib            0x00007fff69502015 start + 1
+Stack dump:
+0.	Program arguments: /Users/jamesfolk/Work/tools/emsdk/clang/e1.37.40_64bit/llc /tmp/tmpXYnapo/cmTC_942c8.bc -march=js -filetype=asm -o /tmp/tmptE0f0l.4.js -emscripten-stack-size=5242880 -O0 -emscripten-assertions=1 -emscripten-no-aliasing-function-pointers -emscripten-global-base=8 -emscripten-no-exit-runtime 
+1.	Running pass 'Flatten global variable initializers into byte arrays' on module '/tmp/tmpXYnapo/cmTC_942c8.bc'.
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 90, in emscript
+    backend_output = compile_js(infile, settings, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 119, in compile_js
+    shared.jsrun.timeout_run(subprocess.Popen(backend_args, stdout=subprocess.PIPE, universal_newlines=True), note_args=backend_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 20, in timeout_run
+    raise Exception('Subprocess "' + ' '.join(note_args) + '" failed with exit code ' + str(proc.returncode) + '!')
+Exception: Subprocess "/Users/jamesfolk/Work/tools/emsdk/clang/e1.37.40_64bit/llc /tmp/tmpXYnapo/cmTC_942c8.bc -march=js -filetype=asm -o /tmp/tmptE0f0l.4.js -emscripten-stack-size=5242880 -O0 -emscripten-assertions=1 -emscripten-no-aliasing-function-pointers -emscripten-global-base=8 -emscripten-no-exit-runtime" failed with exit code -11!
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_241e3"
+[1/2] Building C object CMakeFiles/cmTC_241e3.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_241e3.js
+FAILED: cmTC_241e3.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=sysctlbyname -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_241e3.dir/CheckFunctionExists.c.o  -o cmTC_241e3.js   && :
+error: unresolved symbol: sysctlbyname
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 95, in emscript
+    glue, forwarded_data = compiler_glue(metadata, settings, libraries, compiler_engine, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 227, in compiler_glue
+    glue, forwarded_data = compile_settings(compiler_engine, settings, libraries, temp_files)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 542, in compile_settings
+    cwd=path_from_root('src'), error_limit=300)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 132, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/compiler.js', '/tmp/tmpD9zPNy.txt', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/library_pthread_stub.js'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..generated code.. }
+// 3. pre-run appended it, var Module = {}; ..generated 
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_a80b3"
+[1/2] Building C object CMakeFiles/cmTC_a80b3.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'alloca' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'alloca' is a builtin with type 'void *(unsigned int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_a80b3.js
+FAILED: cmTC_a80b3.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc -DCHECK_FUNCTION_EXISTS=alloca -s ERROR_ON_UNDEFINED_SYMBOLS=1   CMakeFiles/cmTC_a80b3.dir/CheckFunctionExists.c.o  -o cmTC_a80b3.js   && :
+error: unresolved symbol: alloca
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc", line 11, in <module>
+    python_selector.run(__file__)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 38, in run
+    sys.exit(run_by_import(filename, main) if on_allowed_version() else run_by_subprocess(filename))
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/python_selector.py", line 13, in run_by_import
+    return getattr(importlib.import_module(os.path.basename(filename)), main)()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc.py", line 1639, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/shared.py", line 2021, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2349, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/tempfiles.py", line 93, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2354, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 2262, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 95, in emscript
+    glue, forwarded_data = compiler_glue(metadata, settings, libraries, compiler_engine, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 227, in compiler_glue
+    glue, forwarded_data = compile_settings(compiler_engine, settings, libraries, temp_files)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emscripten.py", line 542, in compile_settings
+    cwd=path_from_root('src'), error_limit=300)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/tools/jsrun.py", line 132, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/compiler.js', '/tmp/tmpC6fxvA.txt', '/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/src/library_pthread_stub.js'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..generated code.. }
+// 3. pre-run appended it, var Module = {}; ..generated 
+ninja: build stopped: subcommand failed.
+
+

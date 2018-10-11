@@ -1,0 +1,1288 @@
+The target system is: Emscripten - 1 - x86
+The host system is: Darwin - 17.7.0 - x86_64
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_22cc2"
+[1/2] Building C object CMakeFiles/cmTC_22cc2.dir/src.c.o
+[2/2] Linking C executable cmTC_22cc2.js
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_5da4a"
+[1/2] Building C object CMakeFiles/cmTC_5da4a.dir/src.c.o
+[2/2] Linking C executable cmTC_5da4a.js
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_35dd2"
+[1/2] Building C object CMakeFiles/cmTC_35dd2.dir/src.c.o
+[2/2] Linking C executable cmTC_35dd2.js
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_1bb33"
+[1/2] Building C object CMakeFiles/cmTC_1bb33.dir/src.c.o
+[2/2] Linking C executable cmTC_1bb33.js
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z); }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_3f1c3"
+[1/2] Building C object CMakeFiles/cmTC_3f1c3.dir/src.c.o
+[2/2] Linking C executable cmTC_3f1c3.js
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error NJLIC only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_fa878"
+[1/2] Building C object CMakeFiles/cmTC_fa878.dir/src.c.o
+[2/2] Linking C executable cmTC_fa878.js
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_NO_UNDEFINED succeeded with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_c8df6"
+[1/2] Building C object CMakeFiles/cmTC_c8df6.dir/src.c.o
+[2/2] Linking C executable cmTC_c8df6.js
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_4b730"
+[1/2] Building C object CMakeFiles/cmTC_4b730.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4b730.js
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_8d1ff"
+[1/2] Building C object CMakeFiles/cmTC_8d1ff.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8d1ff.js
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_979d8"
+[1/2] Building C object CMakeFiles/cmTC_979d8.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_979d8.js
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_3bdb6"
+[1/2] Building C object CMakeFiles/cmTC_3bdb6.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_3bdb6.js
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_de498"
+[1/2] Building C object CMakeFiles/cmTC_de498.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_de498.js
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_7f88c"
+[1/2] Building C object CMakeFiles/cmTC_7f88c.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_7f88c.js
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_4828a"
+[1/2] Building C object CMakeFiles/cmTC_4828a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4828a.js
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_f1739"
+[1/2] Building C object CMakeFiles/cmTC_f1739.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f1739.js
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_c6d37"
+[1/2] Building C object CMakeFiles/cmTC_c6d37.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c6d37.js
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_f5694"
+[1/2] Building C object CMakeFiles/cmTC_f5694.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f5694.js
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_e2ca4"
+[1/2] Building C object CMakeFiles/cmTC_e2ca4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e2ca4.js
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_f591d"
+[1/2] Building C object CMakeFiles/cmTC_f591d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f591d.js
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_0225d"
+[1/2] Building C object CMakeFiles/cmTC_0225d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0225d.js
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_2b63b"
+[1/2] Building C object CMakeFiles/cmTC_2b63b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_2b63b.js
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_4f70d"
+[1/2] Building C object CMakeFiles/cmTC_4f70d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4f70d.js
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_7f0fe"
+[1/2] Building C object CMakeFiles/cmTC_7f0fe.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_7f0fe.js
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_042bb"
+[1/2] Building C object CMakeFiles/cmTC_042bb.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_042bb.js
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_5fb02"
+[1/2] Building C object CMakeFiles/cmTC_5fb02.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5fb02.js
+
+
+Determining if the include file libunwind.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_82a5a"
+[1/2] Building C object CMakeFiles/cmTC_82a5a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_82a5a.js
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_5bfca"
+[1/2] Building C object CMakeFiles/cmTC_5bfca.dir/STDC_HEADERS.c.o
+[2/2] Linking C executable cmTC_5bfca.js
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_5c32e"
+[1/2] Building C object CMakeFiles/cmTC_5c32e.dir/SIZEOF_SIZE_T.c.o
+[2/2] Linking C executable cmTC_5c32e.js
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_26032"
+[1/2] Building C object CMakeFiles/cmTC_26032.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_26032.js
+
+File /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_94e3a"
+[1/2] Building C object CMakeFiles/cmTC_94e3a.dir/src.c.o
+[2/2] Linking C executable cmTC_94e3a.js
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function strtod exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_eb103"
+[1/2] Building C object CMakeFiles/cmTC_eb103.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_eb103.js
+warning: unexpected number of arguments 0 in call to 'strtod', should be 2
+warning: unexpected return type i8 in call to 'strtod', should be double
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_a4641"
+[1/2] Building C object CMakeFiles/cmTC_a4641.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'malloc' is a builtin with type 'void *(unsigned int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_a4641.js
+warning: unexpected number of arguments 0 in call to 'malloc', should be 1
+
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_f4f0c"
+[1/2] Building C object CMakeFiles/cmTC_f4f0c.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'calloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'calloc' is a builtin with type 'void *(unsigned int, unsigned int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_f4f0c.js
+warning: unexpected number of arguments 0 in call to 'calloc', should be 2
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_68212"
+[1/2] Building C object CMakeFiles/cmTC_68212.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'realloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'realloc' is a builtin with type 'void *(void *, unsigned int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_68212.js
+warning: unexpected number of arguments 0 in call to 'realloc', should be 2
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_183a9"
+[1/2] Building C object CMakeFiles/cmTC_183a9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_183a9.js
+warning: unexpected number of arguments 0 in call to 'free', should be 1
+warning: unexpected return type i8 in call to 'free', should be void
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_8ec13"
+[1/2] Building C object CMakeFiles/cmTC_8ec13.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_8ec13.js
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_38725"
+[1/2] Building C object CMakeFiles/cmTC_38725.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_38725.js
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_27dca"
+[1/2] Building C object CMakeFiles/cmTC_27dca.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_27dca.js
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_ae3a1"
+[1/2] Building C object CMakeFiles/cmTC_ae3a1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ae3a1.js
+
+
+Determining if the function qsort exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_327ac"
+[1/2] Building C object CMakeFiles/cmTC_327ac.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_327ac.js
+warning: unexpected number of arguments 0 in call to 'qsort', should be 4
+warning: unexpected return type i8 in call to 'qsort', should be void
+
+
+Determining if the function abs exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_13030"
+[1/2] Building C object CMakeFiles/cmTC_13030.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'abs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'abs' is a builtin with type 'int (int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_13030.js
+
+
+Determining if the function bcopy exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_d8b5b"
+[1/2] Building C object CMakeFiles/cmTC_d8b5b.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d8b5b.js
+warning: unexpected number of arguments 0 in call to 'bcopy', should be 3
+warning: unexpected return type i8 in call to 'bcopy', should be void
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_afd42"
+[1/2] Building C object CMakeFiles/cmTC_afd42.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'memset' is a builtin with type 'void *(void *, int, unsigned int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_afd42.js
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_7e863"
+[1/2] Building C object CMakeFiles/cmTC_7e863.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_7e863.js
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_308ed"
+[1/2] Building C object CMakeFiles/cmTC_308ed.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memmove' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_308ed.js
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_249d4"
+[1/2] Building C object CMakeFiles/cmTC_249d4.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'memcmp' is a builtin with type 'int (const void *, const void *, unsigned int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_249d4.js
+warning: unexpected number of arguments 0 in call to 'memcmp', should be 3
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_0c472"
+[1/2] Building C object CMakeFiles/cmTC_0c472.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlen' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'strlen' is a builtin with type 'unsigned int (const char *)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_0c472.js
+warning: unexpected number of arguments 0 in call to 'strlen', should be 1
+
+
+Determining if the function strlcpy exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_9ae4e"
+[1/2] Building C object CMakeFiles/cmTC_9ae4e.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'strlcpy' is a builtin with type 'unsigned int (char *, const char *, unsigned int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_9ae4e.js
+warning: unexpected number of arguments 0 in call to 'strlcpy', should be 3
+
+
+Determining if the function strlcat exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_070ea"
+[1/2] Building C object CMakeFiles/cmTC_070ea.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcat' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'strlcat' is a builtin with type 'unsigned int (char *, const char *, unsigned int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_070ea.js
+warning: unexpected number of arguments 0 in call to 'strlcat', should be 3
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_6d541"
+[1/2] Building C object CMakeFiles/cmTC_6d541.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'strchr' is a builtin with type 'char *(const char *, int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_6d541.js
+warning: unexpected number of arguments 0 in call to 'strchr', should be 2
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_7008e"
+[1/2] Building C object CMakeFiles/cmTC_7008e.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strrchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'strrchr' is a builtin with type 'char *(const char *, int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_7008e.js
+warning: unexpected number of arguments 0 in call to 'strrchr', should be 2
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_04ed4"
+[1/2] Building C object CMakeFiles/cmTC_04ed4.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strstr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'strstr' is a builtin with type 'char *(const char *, const char *)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_04ed4.js
+warning: unexpected number of arguments 0 in call to 'strstr', should be 2
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_1216b"
+[1/2] Building C object CMakeFiles/cmTC_1216b.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1216b.js
+warning: unexpected number of arguments 0 in call to 'strtol', should be 3
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_4b6ed"
+[1/2] Building C object CMakeFiles/cmTC_4b6ed.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4b6ed.js
+warning: unexpected number of arguments 0 in call to 'strtoul', should be 3
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_26f8d"
+[1/2] Building C object CMakeFiles/cmTC_26f8d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_26f8d.js
+warning: unexpected number of arguments 0 in call to 'strtoll', should be 3
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_2fe5c"
+[1/2] Building C object CMakeFiles/cmTC_2fe5c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_2fe5c.js
+warning: unexpected number of arguments 0 in call to 'strtoull', should be 3
+
+
+Determining if the function atoi exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_5c92a"
+[1/2] Building C object CMakeFiles/cmTC_5c92a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5c92a.js
+warning: unexpected number of arguments 0 in call to 'atoi', should be 1
+
+
+Determining if the function atof exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_9e767"
+[1/2] Building C object CMakeFiles/cmTC_9e767.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_9e767.js
+warning: unexpected number of arguments 0 in call to 'atof', should be 1
+warning: unexpected return type i8 in call to 'atof', should be double
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_51fdc"
+[1/2] Building C object CMakeFiles/cmTC_51fdc.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'strcmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_51fdc.js
+warning: unexpected number of arguments 0 in call to 'strcmp', should be 2
+
+
+Determining if the function strncmp exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_0a6b8"
+[1/2] Building C object CMakeFiles/cmTC_0a6b8.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'strncmp' is a builtin with type 'int (const char *, const char *, unsigned int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_0a6b8.js
+warning: unexpected number of arguments 0 in call to 'strncmp', should be 3
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_56d4a"
+[1/2] Building C object CMakeFiles/cmTC_56d4a.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_56d4a.js
+warning: unexpected number of arguments 0 in call to 'strcasecmp', should be 2
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_8f7fb"
+[1/2] Building C object CMakeFiles/cmTC_8f7fb.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'strncasecmp' is a builtin with type 'int (const char *, const char *, unsigned int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_8f7fb.js
+warning: unexpected number of arguments 0 in call to 'strncasecmp', should be 3
+
+
+Determining if the function vsscanf exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_7af2b"
+[1/2] Building C object CMakeFiles/cmTC_7af2b.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsscanf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'vsscanf' is a builtin with type 'int (const char *restrict, const char *restrict, int *)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_7af2b.js
+warning: unexpected number of arguments 0 in call to 'vsscanf', should be 3
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_ab1a5"
+[1/2] Building C object CMakeFiles/cmTC_ab1a5.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned int, const char *, int *)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_ab1a5.js
+warning: unexpected number of arguments 0 in call to 'vsnprintf', should be 4
+
+
+Determining if the function fopen64 exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_57c88"
+[1/2] Building C object CMakeFiles/cmTC_57c88.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_57c88.js
+warning: unexpected number of arguments 0 in call to 'fopen', should be 2
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_80d4e"
+[1/2] Building C object CMakeFiles/cmTC_80d4e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_80d4e.js
+warning: unexpected number of arguments 0 in call to '__fseeko', should be 3
+
+
+Determining if the function fseeko64 exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_f157a"
+[1/2] Building C object CMakeFiles/cmTC_f157a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f157a.js
+warning: unexpected number of arguments 0 in call to '__fseeko', should be 3
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_f5930"
+[1/2] Building C object CMakeFiles/cmTC_f5930.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f5930.js
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_7c96c"
+[1/2] Building C object CMakeFiles/cmTC_7c96c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7c96c.js
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_cc449"
+[1/2] Building C object CMakeFiles/cmTC_cc449.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_cc449.js
+
+
+Determining if the function getauxval exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_7df91"
+[1/2] Building C object CMakeFiles/cmTC_7df91.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7df91.js
+warning: unexpected number of arguments 0 in call to 'getauxval', should be 1
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_f9c2c"
+[1/2] Building C object CMakeFiles/cmTC_f9c2c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f9c2c.js
+warning: unexpected number of arguments 0 in call to 'poll', should be 3
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_93378"
+[1/2] Building C object CMakeFiles/cmTC_93378.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_93378.js
+
+
+Determining if the function atan exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_711cc"
+[1/2] Building C object CMakeFiles/cmTC_711cc.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'atan' is a builtin with type 'double (double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_711cc.js
+
+
+Determining if the function atan2 exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_08f18"
+[1/2] Building C object CMakeFiles/cmTC_08f18.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan2' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'atan2' is a builtin with type 'double (double, double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_08f18.js
+
+
+Determining if the function ceil exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_08a9f"
+[1/2] Building C object CMakeFiles/cmTC_08a9f.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'ceil' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'ceil' is a builtin with type 'double (double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_08a9f.js
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_233a6"
+[1/2] Building C object CMakeFiles/cmTC_233a6.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'copysign' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'copysign' is a builtin with type 'double (double, double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_233a6.js
+warning: unexpected number of arguments 0 in call to 'copysign', should be 2
+warning: unexpected return type i8 in call to 'copysign', should be double
+
+
+Determining if the function cos exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_79efa"
+[1/2] Building C object CMakeFiles/cmTC_79efa.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'cos' is a builtin with type 'double (double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_79efa.js
+
+
+Determining if the function cosf exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_7a37b"
+[1/2] Building C object CMakeFiles/cmTC_7a37b.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cosf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'cosf' is a builtin with type 'float (float)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_7a37b.js
+
+
+Determining if the function fabs exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_aba83"
+[1/2] Building C object CMakeFiles/cmTC_aba83.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'fabs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'fabs' is a builtin with type 'double (double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_aba83.js
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_1f6f9"
+[1/2] Building C object CMakeFiles/cmTC_1f6f9.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_1f6f9.js
+
+
+Determining if the function log exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_b0af4"
+[1/2] Building C object CMakeFiles/cmTC_b0af4.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'log' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'log' is a builtin with type 'double (double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_b0af4.js
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_decc7"
+[1/2] Building C object CMakeFiles/cmTC_decc7.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_decc7.js
+
+
+Determining if the function scalbn exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_fbac1"
+[1/2] Building C object CMakeFiles/cmTC_fbac1.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'scalbn' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'scalbn' is a builtin with type 'double (double, int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_fbac1.js
+warning: unexpected number of arguments 0 in call to 'scalbn', should be 2
+warning: unexpected return type i8 in call to 'scalbn', should be double
+
+
+Determining if the function sin exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_a926c"
+[1/2] Building C object CMakeFiles/cmTC_a926c.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sin' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'sin' is a builtin with type 'double (double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_a926c.js
+
+
+Determining if the function sinf exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_9a87d"
+[1/2] Building C object CMakeFiles/cmTC_9a87d.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sinf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'sinf' is a builtin with type 'float (float)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_9a87d.js
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_71715"
+[1/2] Building C object CMakeFiles/cmTC_71715.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'sqrt' is a builtin with type 'double (double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_71715.js
+
+
+Determining if the function sqrtf exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_81124"
+[1/2] Building C object CMakeFiles/cmTC_81124.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrtf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'sqrtf' is a builtin with type 'float (float)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_81124.js
+
+
+Determining if the function tan exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_a183c"
+[1/2] Building C object CMakeFiles/cmTC_a183c.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'tan' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'tan' is a builtin with type 'double (double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_a183c.js
+
+
+Determining if the function tanf exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_45202"
+[1/2] Building C object CMakeFiles/cmTC_45202.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'tanf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'tanf' is a builtin with type 'float (float)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_45202.js
+
+
+Determining if the function acos exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_5b672"
+[1/2] Building C object CMakeFiles/cmTC_5b672.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'acos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'acos' is a builtin with type 'double (double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_5b672.js
+
+
+Determining if the function asin exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_d8f1d"
+[1/2] Building C object CMakeFiles/cmTC_d8f1d.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'asin' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'asin' is a builtin with type 'double (double)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_d8f1d.js
+
+
+Determining if the function iconv_open exists in the iconv passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_54998"
+[1/2] Building C object CMakeFiles/cmTC_54998.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_54998.js
+WARNING:root:emcc: cannot find library "iconv"
+warning: unexpected number of arguments 0 in call to 'iconv_open', should be 2
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_c602d"
+[1/2] Building C object CMakeFiles/cmTC_c602d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c602d.js
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_3f40e"
+[1/2] Building C object CMakeFiles/cmTC_3f40e.dir/src.c.o
+[2/2] Linking C executable cmTC_3f40e.js
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+   (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+   return 0;
+}
+
