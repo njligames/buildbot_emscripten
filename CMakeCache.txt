@@ -42,7 +42,7 @@ ASSERTIONS:STRING=auto
 CLOCK_GETTIME:BOOL=OFF
 
 //Emscripten ar
-CMAKE_AR:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emar
+CMAKE_AR:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
@@ -52,10 +52,10 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_CROSSCOMPILING_EMULATOR:UNINITIALIZED="/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node"
 
 //LLVM archiver
-CMAKE_CXX_COMPILER_AR:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/clang/e1.37.40_64bit/llvm-ar
+CMAKE_CXX_COMPILER_AR:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/clang/e1.38.13_64bit/llvm-ar
 
 //Generate index for LLVM archive
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/clang/e1.37.40_64bit/llvm-ranlib
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/clang/e1.38.13_64bit/llvm-ranlib
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -73,10 +73,10 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-DNDEBUG -O2
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2
 
 //LLVM archiver
-CMAKE_C_COMPILER_AR:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/clang/e1.37.40_64bit/llvm-ar
+CMAKE_C_COMPILER_AR:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/clang/e1.38.13_64bit/llvm-ar
 
 //Generate index for LLVM archive
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/clang/e1.37.40_64bit/llvm-ranlib
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/clang/e1.38.13_64bit/llvm-ranlib
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -201,7 +201,7 @@ CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 CMAKE_PROJECT_NAME:STATIC=NJLIC
 
 //Emscripten ranlib
-CMAKE_RANLIB:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emranlib
+CMAKE_RANLIB:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emranlib
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
@@ -251,7 +251,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_STRIP:FILEPATH=/usr/bin/strip
 
 //The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/cmake/Modules/Platform/Emscripten.cmake
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/cmake/Modules/Platform/Emscripten.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -306,7 +306,7 @@ ESD_SHARED:BOOL=ON
 EXECUTABLE_GITHUB_ACCOUNT:STRING=njligames
 
 //No help, variable specified on the command line.
-EXECUTABLE_GITHUB_BRANCH:STRING=feature/test_new_geometry
+EXECUTABLE_GITHUB_BRANCH:STRING=feature/more_targets
 
 //No help, variable specified on the command line.
 EXECUTABLE_GITHUB_REPOSITORY:STRING=njligames-njlic_engine
@@ -357,13 +357,13 @@ NAS:BOOL=ON
 NAS_SHARED:BOOL=ON
 
 //Dependencies for the target
-NJLIC-lua-swig-bullet3-static_LIB_DEPENDS:STATIC=general;NJLIC-static;optimized;Bullet2FileLoader;optimized;Bullet3Collision;optimized;Bullet3Common;optimized;Bullet3Dynamics;optimized;Bullet3Geometry;optimized;Bullet3OpenCL_clew;optimized;BulletCollision;optimized;BulletDynamics;optimized;BulletFileLoader;optimized;BulletInverseDynamics;optimized;BulletInverseDynamicsUtils;optimized;BulletSoftBody;optimized;BulletWorldImporter;optimized;BulletXmlWorldImporter;optimized;ConvexDecomposition;optimized;GIMPACTUtils;optimized;HACD;optimized;LinearMath;optimized;imgui;optimized;ImGuizmo;optimized;ogg;optimized;vorbis;optimized;vorbisenc;optimized;vorbisfile;optimized;m;optimized;iconv;optimized;SDL2;optimized;NJLIC-lua-swig-njlic-static;general;-s FULL_ES2=1;general;-s TOTAL_MEMORY=256*1024*1024;general;-s WASM=1;general;-s EXTRA_EXPORTED_RUNTIME_METHODS=['Pointer_stringify'];general;-s DISABLE_EXCEPTION_CATCHING=1;general;-s BINARYEN=1;general;-s BINARYEN_TRAP_MODE='clamp';general;-v;general;--emrun;general;--shell-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/release_shell.html;general;-Wl,--no-undefined;general;--memory-init-file 1;general;--embed-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/gameproject/assets@/;
+NJLIC-lua-swig-bullet3-static_LIB_DEPENDS:STATIC=general;NJLIC-static;optimized;Bullet2FileLoader;optimized;Bullet3Collision;optimized;Bullet3Common;optimized;Bullet3Dynamics;optimized;Bullet3Geometry;optimized;Bullet3OpenCL_clew;optimized;BulletCollision;optimized;BulletDynamics;optimized;BulletFileLoader;optimized;BulletInverseDynamics;optimized;BulletInverseDynamicsUtils;optimized;BulletSoftBody;optimized;BulletWorldImporter;optimized;BulletXmlWorldImporter;optimized;ConvexDecomposition;optimized;GIMPACTUtils;optimized;HACD;optimized;LinearMath;optimized;imgui;optimized;ImGuizmo;optimized;ogg;optimized;vorbis;optimized;vorbisenc;optimized;vorbisfile;optimized;m;optimized;iconv;optimized;SDL2;optimized;NJLIC-lua-swig-njlic-static;general;-s FULL_ES2=1;general;-s TOTAL_MEMORY=256*1024*1024;general;-s ERROR_ON_UNDEFINED_SYMBOLS=0;general;-s WASM=1;general;-s EXTRA_EXPORTED_RUNTIME_METHODS=['Pointer_stringify'];general;-s DISABLE_EXCEPTION_CATCHING=1;general;-s BINARYEN=1;general;-s BINARYEN_TRAP_MODE='clamp';general;-v;general;--emrun;general;--shell-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/release_shell.html;general;-Wl,--no-undefined;general;--memory-init-file 1;general;--embed-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/gameproject/assets@/;
 
 //Dependencies for target
 NJLIC-lua-swig-njlic-static_LIB_DEPENDS:STATIC=
 
 //Dependencies for the target
-NJLIC-static_LIB_DEPENDS:STATIC=general;Bullet2FileLoader;general;Bullet3Collision;general;Bullet3Common;general;Bullet3Dynamics;general;Bullet3Geometry;general;Bullet3OpenCL_clew;general;BulletCollision;general;BulletDynamics;general;BulletFileLoader;general;BulletInverseDynamics;general;BulletInverseDynamicsUtils;general;BulletSoftBody;general;BulletWorldImporter;general;BulletXmlWorldImporter;general;ConvexDecomposition;general;GIMPACTUtils;general;HACD;general;LinearMath;general;imgui;general;ImGuizmo;general;ogg;general;vorbis;general;vorbisenc;general;vorbisfile;general;m;general;iconv;general;SDL2;general;NJLIC-lua-swig-njlic-static;general;NJLIC-lua-swig-bullet3-static;general;-s FULL_ES2=1;general;-s TOTAL_MEMORY=256*1024*1024;general;-s WASM=1;general;-s EXTRA_EXPORTED_RUNTIME_METHODS=['Pointer_stringify'];general;-s DISABLE_EXCEPTION_CATCHING=1;general;-s BINARYEN=1;general;-s BINARYEN_TRAP_MODE='clamp';general;-v;general;--emrun;general;--shell-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/release_shell.html;general;-Wl,--no-undefined;general;--memory-init-file 1;general;--embed-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/gameproject/assets@/;
+NJLIC-static_LIB_DEPENDS:STATIC=general;Bullet2FileLoader;general;Bullet3Collision;general;Bullet3Common;general;Bullet3Dynamics;general;Bullet3Geometry;general;Bullet3OpenCL_clew;general;BulletCollision;general;BulletDynamics;general;BulletFileLoader;general;BulletInverseDynamics;general;BulletInverseDynamicsUtils;general;BulletSoftBody;general;BulletWorldImporter;general;BulletXmlWorldImporter;general;ConvexDecomposition;general;GIMPACTUtils;general;HACD;general;LinearMath;general;imgui;general;ImGuizmo;general;ogg;general;vorbis;general;vorbisenc;general;vorbisfile;general;m;general;iconv;general;SDL2;general;NJLIC-lua-swig-njlic-static;general;NJLIC-lua-swig-bullet3-static;general;-s FULL_ES2=1;general;-s TOTAL_MEMORY=256*1024*1024;general;-s ERROR_ON_UNDEFINED_SYMBOLS=0;general;-s WASM=1;general;-s EXTRA_EXPORTED_RUNTIME_METHODS=['Pointer_stringify'];general;-s DISABLE_EXCEPTION_CATCHING=1;general;-s BINARYEN=1;general;-s BINARYEN_TRAP_MODE='clamp';general;-v;general;--emrun;general;--shell-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/release_shell.html;general;-Wl,--no-undefined;general;--memory-init-file 1;general;--embed-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/gameproject/assets@/;
 
 //Value Computed by CMake
 NJLIC_BINARY_DIR:STATIC=/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten
@@ -496,7 +496,13 @@ THIRDPARTY_BULLET3_ENABLED:BOOL=ON
 THIRDPARTY_BULLET3_INCLUDE_URL:STRING=https://www.dropbox.com/s/f2zfpkdx2agtk00/libbullet3_includes.tar.gz?dl=0
 
 //The URL for Release Bullet3
+THIRDPARTY_BULLET3_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/4dbbv73usjwr8ds/libbullet3_emscripten_MinSizeRel.tar.gz?dl=0
+
+//The URL for Release Bullet3
 THIRDPARTY_BULLET3_RELEASE_URL:STRING=https://www.dropbox.com/s/ekvc8202v80x04e/libbullet3_emscripten_Release.tar.gz?dl=0
+
+//The URL for Release Bullet3
+THIRDPARTY_BULLET3_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/zoo7k57mookvzjh/libbullet3_emscripten_RelWithDebugInfo.tar.gz?dl=0
 
 //The URL for include Bullet3
 THIRDPARTY_DEBUG-DRAW_INCLUDE_URL:STRING=https://www.dropbox.com/s/c405ev7l3d0ruvb/libdebug-draw_includes.tar.gz?dl=0
@@ -520,7 +526,13 @@ THIRDPARTY_IMGUIZMO_ENABLED:BOOL=ON
 THIRDPARTY_IMGUIZMO_INCLUDE_URL:STRING=https://www.dropbox.com/s/vi20so6cykm4zxx/libimguizmo_includes.tar.gz?dl=0
 
 //The URL for Release Bullet3
+THIRDPARTY_IMGUIZMO_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/4fauf9xxoc9wlzf/libimguizmo_emscripten_MinSizeRel.tar.gz?dl=0
+
+//The URL for Release Bullet3
 THIRDPARTY_IMGUIZMO_RELEASE_URL:STRING=https://www.dropbox.com/s/57faktvdv02yias/libimguizmo_emscripten_Release.tar.gz?dl=0
+
+//The URL for Release Bullet3
+THIRDPARTY_IMGUIZMO_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/10sppxu9z4cmb19/libimguizmo_emscripten_RelWithDebugInfo.tar.gz?dl=0
 
 //The URL for Debug Bullet3
 THIRDPARTY_IMGUI_DEBUG_URL:STRING=https://www.dropbox.com/s/mscwrknsqljij6u/libimgui_emscripten_Debug.tar.gz?dl=0
@@ -532,7 +544,13 @@ THIRDPARTY_IMGUI_ENABLED:BOOL=ON
 THIRDPARTY_IMGUI_INCLUDE_URL:STRING=https://www.dropbox.com/s/xhauwvyy48g5dd7/libimgui_includes.tar.gz?dl=0
 
 //The URL for Release Bullet3
+THIRDPARTY_IMGUI_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/5jb1o3ekyojmrw8/libimgui_emscripten_MinSizeRel.tar.gz?dl=0
+
+//The URL for Release Bullet3
 THIRDPARTY_IMGUI_RELEASE_URL:STRING=https://www.dropbox.com/s/gd06m7a4djgghbv/libimgui_emscripten_Release.tar.gz?dl=0
+
+//The URL for Release Bullet3
+THIRDPARTY_IMGUI_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/0c89wz3868hcpr6/libimgui_emscripten_RelWithDebugInfo.tar.gz?dl=0
 
 //Use JsonCPP library
 THIRDPARTY_JSONCPP_ENABLED:BOOL=OFF
@@ -547,7 +565,13 @@ THIRDPARTY_OGG_DEBUG_URL:STRING=https://www.dropbox.com/s/tqvf2039tjjqpb6/libogg
 THIRDPARTY_OGG_INCLUDE_URL:STRING=https://www.dropbox.com/s/agc7zmqg9m64x9i/libogg_includes.tar.gz?dl=0
 
 //The URL for Release Bullet3
+THIRDPARTY_OGG_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/kd1zsc1v73pvffc/libogg_emscripten_MinSizeRel.tar.gz?dl=0
+
+//The URL for Release Bullet3
 THIRDPARTY_OGG_RELEASE_URL:STRING=https://www.dropbox.com/s/rp5yob3wabc9vcn/libogg_emscripten_Release.tar.gz?dl=0
+
+//The URL for Release Bullet3
+THIRDPARTY_OGG_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/svq7011ccp6fe2j/libogg_emscripten_RelWithDebugInfo.tar.gz?dl=0
 
 //The URL for Debug Bullet3
 THIRDPARTY_SDL2_DEBUG_URL:STRING=https://www.dropbox.com/s/foq0lphgfrcfaws/libsdl2_emscripten_Debug.tar.gz?dl=0
@@ -559,9 +583,15 @@ THIRDPARTY_SDL2_ENABLED:BOOL=ON
 THIRDPARTY_SDL2_INCLUDE_URL:STRING=https://www.dropbox.com/s/ninle2iwebrcpdq/libsdl_include.tar.gz?dl=0
 
 //The URL for Release Bullet3
+THIRDPARTY_SDL2_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/tuml0qpzf10br79/libsdl2_emscripten_MinSizeRel.tar.gz?dl=0
+
+//The URL for Release Bullet3
 THIRDPARTY_SDL2_RELEASE_URL:STRING=https://www.dropbox.com/s/4u4ij8mcz0oym6a/libsdl2_emscripten_Release.tar.gz?dl=0
 
-//The URL for include STBImages
+//The URL for Release Bullet3
+THIRDPARTY_SDL2_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/dwetx9ixmvesf98/libsdl2_emscripten_RelWithDebugInfo.tar.gz?dl=0
+
+//The URL for include Bullet3
 THIRDPARTY_STBIMAGES_INCLUDE_URL:STRING=https://www.dropbox.com/s/u9c4ruts1wac41k/stb_image_includes.tar.gz?dl=0
 
 //The URL for Debug Bullet3
@@ -571,7 +601,13 @@ THIRDPARTY_VORBIS_DEBUG_URL:STRING=https://www.dropbox.com/s/q9wjv9hgcfs83rp/lib
 THIRDPARTY_VORBIS_INCLUDE_URL:STRING=https://www.dropbox.com/s/erbp79zazwqsknv/libvorbis_includes.tar.gz?dl=0
 
 //The URL for Release Bullet3
+THIRDPARTY_VORBIS_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/raf27szzr4nhfbt/libvorbis_emscripten_MinSizeRel.tar.gz?dl=0
+
+//The URL for Release Bullet3
 THIRDPARTY_VORBIS_RELEASE_URL:STRING=https://www.dropbox.com/s/i0kfmvo8xx5o25u/libvorbis_emscripten_Release.tar.gz?dl=0
+
+//The URL for Release Bullet3
+THIRDPARTY_VORBIS_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/njsxgnag0dnl2pc/libvorbis_emscripten_RelWithDebugInfo.tar.gz?dl=0
 
 //fmod include
 USE_BULLET3_LIBRARY:BOOL=ON

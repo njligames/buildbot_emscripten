@@ -25,7 +25,7 @@ rule CUSTOM_COMMAND
 rule C_COMPILER__NJLIC-exe
   depfile = $DEP_FILE
   deps = gcc
-  command = /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building C object $out
 
 
@@ -35,7 +35,7 @@ rule C_COMPILER__NJLIC-exe
 rule CXX_COMPILER__NJLIC-exe
   depfile = $DEP_FILE
   deps = gcc
-  command = /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/em++  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/em++  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -43,7 +43,7 @@ rule CXX_COMPILER__NJLIC-exe
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__NJLIC-exe
-  command = $PRE_LINK && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/em++  $FLAGS  $LINK_FLAGS $in  -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/em++  $FLAGS  $LINK_FLAGS $in  -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -54,7 +54,7 @@ rule CXX_EXECUTABLE_LINKER__NJLIC-exe
 rule C_COMPILER__NJLIC-static
   depfile = $DEP_FILE
   deps = gcc
-  command = /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building C object $out
 
 
@@ -64,7 +64,7 @@ rule C_COMPILER__NJLIC-static
 rule CXX_COMPILER__NJLIC-static
   depfile = $DEP_FILE
   deps = gcc
-  command = /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/em++  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/em++  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -72,7 +72,7 @@ rule CXX_COMPILER__NJLIC-static
 # Rule for linking CXX static library.
 
 rule CXX_STATIC_LIBRARY_LINKER__NJLIC-static
-  command = $PRE_LINK && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emar rc $TARGET_FILE $LINK_FLAGS $in && $POST_BUILD
+  command = $PRE_LINK && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emar rc $TARGET_FILE $LINK_FLAGS $in && $POST_BUILD
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT
 
@@ -83,7 +83,7 @@ rule CXX_STATIC_LIBRARY_LINKER__NJLIC-static
 rule CXX_COMPILER__NJLIC-lua-swig-bullet3-static
   depfile = $DEP_FILE
   deps = gcc
-  command = /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/em++  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/em++  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -91,7 +91,7 @@ rule CXX_COMPILER__NJLIC-lua-swig-bullet3-static
 # Rule for linking CXX static library.
 
 rule CXX_STATIC_LIBRARY_LINKER__NJLIC-lua-swig-bullet3-static
-  command = $PRE_LINK && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emar rc $TARGET_FILE $LINK_FLAGS $in && $POST_BUILD
+  command = $PRE_LINK && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emar rc $TARGET_FILE $LINK_FLAGS $in && $POST_BUILD
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT
 
@@ -102,7 +102,7 @@ rule CXX_STATIC_LIBRARY_LINKER__NJLIC-lua-swig-bullet3-static
 rule CXX_COMPILER__NJLIC-lua-swig-njlic-static
   depfile = $DEP_FILE
   deps = gcc
-  command = /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/em++  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/em++  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -110,7 +110,7 @@ rule CXX_COMPILER__NJLIC-lua-swig-njlic-static
 # Rule for linking CXX static library.
 
 rule CXX_STATIC_LIBRARY_LINKER__NJLIC-lua-swig-njlic-static
-  command = $PRE_LINK && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.37.40/emar rc $TARGET_FILE $LINK_FLAGS $in && $POST_BUILD
+  command = $PRE_LINK && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emar rc $TARGET_FILE $LINK_FLAGS $in && $POST_BUILD
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT
 
