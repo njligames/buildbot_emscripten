@@ -1,0 +1,1174 @@
+[0/1] Re-running CMake...
+-- 1.0.0 :: 0 :: 0 :: 1 :: 1.0
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Include dir for BULLET3_INCLUDE_DIR '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten'
+-- BULLET3 Library Path: '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten'
+-- BULLET3_INCLUDE_DIR /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten
+-- BULLET3_LIBRARIES 
+-- BULLET3_TARGETS Bullet2FileLoader;Bullet3Collision;Bullet3Common;Bullet3Dynamics;Bullet3Geometry;Bullet3OpenCL_clew;BulletCollision;BulletDynamics;BulletFileLoader;BulletInverseDynamics;BulletInverseDynamicsUtils;BulletSoftBody;BulletWorldImporter;BulletXmlWorldImporter;ConvexDecomposition;GIMPACTUtils;HACD;LinearMath
+-- Include dir for DEBUG-DRAW_INCLUDE_DIR '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/debug-draw/lib/emscripten'
+-- DEBUG-DRAW Library Path: '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/debug-draw/lib/emscripten'
+-- DEBUG-DRAW_INCLUDE_DIR /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/debug-draw/lib/emscripten
+-- DEBUG-DRAW_LIBRARIES 
+-- DEBUG-DRAW_TARGETS 
+-- Include dir for GLM_INCLUDE_DIR '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/glm/lib/emscripten'
+-- GLM Library Path: '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/glm/lib/emscripten'
+-- GLM_INCLUDE_DIR /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/glm/lib/emscripten
+-- GLM_LIBRARIES 
+-- GLM_TARGETS 
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Include dir for IMGUI_INCLUDE_DIR '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/imgui/lib/emscripten'
+-- IMGUI Library Path: '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/imgui/lib/emscripten'
+-- IMGUI_INCLUDE_DIR /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/imgui/lib/emscripten
+-- IMGUI_LIBRARIES 
+-- IMGUI_TARGETS imgui
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Include dir for IMGUIZMO_INCLUDE_DIR '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/ImGuizmo/lib/emscripten'
+-- IMGUIZMO Library Path: '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/ImGuizmo/lib/emscripten'
+-- IMGUIZMO_INCLUDE_DIR /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/ImGuizmo/lib/emscripten
+-- IMGUIZMO_LIBRARIES 
+-- IMGUIZMO_TARGETS ImGuizmo
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Include dir for OGG_INCLUDE_DIR '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/ogg/lib/emscripten'
+-- OGG Library Path: '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/ogg/lib/emscripten'
+-- OGG_INCLUDE_DIR /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/ogg/lib/emscripten
+-- OGG_LIBRARIES 
+-- OGG_TARGETS ogg
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Include dir for VORBIS_INCLUDE_DIR '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/vorbis/lib/emscripten'
+-- VORBIS Library Path: '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/vorbis/lib/emscripten'
+-- VORBIS_INCLUDE_DIR /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/vorbis/lib/emscripten
+-- VORBIS_LIBRARIES 
+-- VORBIS_TARGETS vorbis;vorbisenc;vorbisfile
+-- No need to include openal
+-- Include dir for STBIMAGES_INCLUDE_DIR '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/stbimages/lib/emscripten'
+-- STBIMAGES Library Path: '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/stbimages/lib/emscripten'
+-- STBIMAGES_INCLUDE_DIR /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/stbimages/lib/emscripten
+-- STBIMAGES_LIBRARIES 
+-- STBIMAGES_TARGETS 
+-- Platform is emscripten for project
+-- Platform is emscripten for engine
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Downloaded Binary Files: 
+-- Include dir for SDL2_INCLUDE_DIR '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/sdl2/lib/emscripten'
+-- SDL2 Library Path: '/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/sdl2/lib/emscripten'
+-- SDL2_INCLUDE_DIR /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/sdl2/lib/emscripten
+-- SDL2_LIBRARIES 
+-- SDL2_TARGETS SDL2
+-- NJLIC_THIRDPARTY_INCLUDE_DIRS /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet2FileLoader;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet2FileLoader/autogenerated;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/BroadPhaseCollision;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/BroadPhaseCollision/shared;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/NarrowPhaseCollision;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/NarrowPhaseCollision/shared;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Common;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Common/shared;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Dynamics;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Dynamics/ConstraintSolver;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Dynamics/shared;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Geometry;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/BroadphaseCollision;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/BroadphaseCollision/kernels;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/Initialize;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/NarrowphaseCollision;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/NarrowphaseCollision/kernels;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/ParallelPrimitives;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/ParallelPrimitives/kernels;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/Raycast;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/Raycast/kernels;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/RigidBody;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/RigidBody/kernels;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/BroadphaseCollision;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/CollisionDispatch;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/CollisionShapes;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/Gimpact;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/NarrowPhaseCollision;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/Character;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/ConstraintSolver;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/Dynamics;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/Featherstone;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/MLCPSolvers;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/Vehicle;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletFileLoader;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletFileLoader/autogenerated;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletInverseDynamics;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletInverseDynamics/details;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletSoftBody;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletWorldImporter;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletXmlWorldImporter;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/ConvexDecomposition;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/GIMPACTUtils;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/HACD;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/InverseDynamics;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/LinearMath;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/debug-draw/lib/emscripten/include;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/debug-draw/lib/emscripten;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/glm/lib/emscripten/include/glm;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/glm/lib/emscripten/include/glm/detail;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/glm/lib/emscripten/include/glm/gtc;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/glm/lib/emscripten/include/glm/gtx;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/glm/lib/emscripten/include/glm/simd;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/glm/lib/emscripten/include;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/glm/lib/emscripten;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/imgui/lib/emscripten/include;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/ImGuizmo/lib/emscripten/include;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/ogg/lib/emscripten/include/ogg;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/ogg/lib/emscripten/include;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/vorbis/lib/emscripten/include/vorbis;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/vorbis/lib/emscripten/include;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/stbimages/lib/emscripten/include;/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/sdl2/lib/emscripten/include
+-- SWIG_FOUND TRUE
+-- SWIG_DIR /usr/local/Cellar/swig/3.0.12/share/swig/3.0.12
+-- SWIG_EXECUTABLE /usr/local/bin/swig
+-- SWIG_VERSION 3.0.12
+-- 
+-- NJLIC was configured with the following options:
+-- 
+-- Platform: Emscripten-1
+-- 64-bit:   FALSE
+-- Compiler: /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc
+-- Compiler: /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/em++
+-- Build Type: Debug
+-- 
+-- Subsystems:
+--   Atomic:	ON
+--   Audio:	ON
+--   Video:	ON
+--   Render:	ON
+--   Events:	ON
+--   Joystick:	ON
+--   Haptic:	ON
+--   Power:	ON
+--   Threads:	ON
+--   Timers:	ON
+--   File:	ON
+--   Loadso:	ON
+--   CPUinfo:	ON
+--   Filesystem:	ON
+--   Dlopen:	ON
+-- 
+-- Options:
+--   3DNOW                  (Wanted: OFF): OFF
+--   ALSA                   (Wanted: ON): OFF
+--   ALSA_SHARED            (Wanted: ON): OFF
+--   ALTIVEC                (Wanted: OFF): OFF
+--   ARTS                   (Wanted: ON): OFF
+--   ARTS_SHARED            (Wanted: ON): OFF
+--   ASSEMBLY               (Wanted: OFF): OFF
+--   ASSERTIONS             (Wanted: auto): auto
+--   CLOCK_GETTIME          (Wanted: OFF): OFF
+--   DIRECTFB_SHARED        (Wanted: OFF): OFF
+--   DIRECTX                (Wanted: OFF): OFF
+--   DISKAUDIO              (Wanted: ON): ON
+--   DUMMYAUDIO             (Wanted: ON): ON
+--   ESD                    (Wanted: ON): OFF
+--   ESD_SHARED             (Wanted: ON): OFF
+--   FUSIONSOUND            (Wanted: OFF): OFF
+--   FUSIONSOUND_SHARED     (Wanted: OFF): OFF
+--   GCC_ATOMICS            (Wanted: ON): ON
+--   INPUT_TSLIB            (Wanted: ON): OFF
+--   JACK                   (Wanted: ON): OFF
+--   JACK_SHARED            (Wanted: ON): OFF
+--   KMSDRM_SHARED          (Wanted: ON): OFF
+--   LIBC                   (Wanted: ON): ON
+--   LIBSAMPLERATE          (Wanted: ON): OFF
+--   LIBSAMPLERATE_SHARED   (Wanted: ON): OFF
+--   MIR_SHARED             (Wanted: ON): OFF
+--   MMX                    (Wanted: OFF): OFF
+--   NAS                    (Wanted: ON): OFF
+--   NAS_SHARED             (Wanted: ON): OFF
+--   NJLIC_DLOPEN           (Wanted: OFF): OFF
+--   NJLIC_STATIC_PIC       (Wanted: OFF): OFF
+--   OSS                    (Wanted: ON): OFF
+--   PTHREADS               (Wanted: OFF): OFF
+--   PTHREADS_SEM           (Wanted: OFF): OFF
+--   PULSEAUDIO             (Wanted: ON): OFF
+--   PULSEAUDIO_SHARED      (Wanted: ON): OFF
+--   RENDER_D3D             (Wanted: OFF): OFF
+--   RPATH                  (Wanted: ON): OFF
+--   SNDIO                  (Wanted: ON): OFF
+--   SSE                    (Wanted: OFF): OFF
+--   SSE2                   (Wanted: OFF): OFF
+--   SSE3                   (Wanted: OFF): OFF
+--   SSEMATH                (Wanted: OFF): OFF
+--   VIDEO_COCOA            (Wanted: OFF): OFF
+--   VIDEO_DIRECTFB         (Wanted: OFF): OFF
+--   VIDEO_DUMMY            (Wanted: ON): ON
+--   VIDEO_KMSDRM           (Wanted: ON): OFF
+--   VIDEO_MIR              (Wanted: ON): OFF
+--   VIDEO_OPENGL           (Wanted: ON): OFF
+--   VIDEO_OPENGLES         (Wanted: ON): ON
+--   VIDEO_RPI              (Wanted: ON): OFF
+--   VIDEO_VIVANTE          (Wanted: ON): OFF
+--   VIDEO_VULKAN           (Wanted: OFF): OFF
+--   VIDEO_WAYLAND          (Wanted: ON): OFF
+--   VIDEO_WAYLAND_QT_TOUCH (Wanted: ON): OFF
+--   VIDEO_X11              (Wanted: ON): OFF
+--   VIDEO_X11_XCURSOR      (Wanted: ON): OFF
+--   VIDEO_X11_XINERAMA     (Wanted: ON): OFF
+--   VIDEO_X11_XINPUT       (Wanted: ON): OFF
+--   VIDEO_X11_XRANDR       (Wanted: ON): OFF
+--   VIDEO_X11_XSCRNSAVER   (Wanted: ON): OFF
+--   VIDEO_X11_XSHAPE       (Wanted: ON): OFF
+--   VIDEO_X11_XVM          (Wanted: ON): OFF
+--   WAYLAND_SHARED         (Wanted: ON): OFF
+--   X11_SHARED             (Wanted: ON): OFF
+-- 
+--  CFLAGS:        
+--  CXXFLAGS:      -std=c++11 -fno-exceptions
+--  EXTRA_CFLAGS:  -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -Wall 
+--  EXTRA_LDFLAGS: -s FULL_ES2=1;-s TOTAL_MEMORY=1024*1024*1024;-s ERROR_ON_UNDEFINED_SYMBOLS=0;-s WASM=1;-s EXTRA_EXPORTED_RUNTIME_METHODS=['Pointer_stringify'];-s DISABLE_EXCEPTION_CATCHING=1;-s BINARYEN=1;-s BINARYEN_TRAP_MODE='js';-v;--emrun;-s DEMANGLE_SUPPORT=1;-s USE_WEBGL2=1;--use-preload-cache;--shell-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/release_shell.html;-Wl,--no-undefined;--memory-init-file 1;--embed-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/gameproject/assets@/
+--  EXTRA_LIBS:    Bullet2FileLoader;Bullet3Collision;Bullet3Common;Bullet3Dynamics;Bullet3Geometry;Bullet3OpenCL_clew;BulletCollision;BulletDynamics;BulletFileLoader;BulletInverseDynamics;BulletInverseDynamicsUtils;BulletSoftBody;BulletWorldImporter;BulletXmlWorldImporter;ConvexDecomposition;GIMPACTUtils;HACD;LinearMath;imgui;ImGuizmo;ogg;vorbis;vorbisenc;vorbisfile;m;iconv;SDL2;NJLIC-lua-swig-njlic-static;NJLIC-lua-swig-bullet3-static
+-- 
+--  Build Shared Library: OFF
+--  Build Static Library: ON
+--  Build Executable: ON
+--  Build Static Library with Position Independent Code: OFF
+-- 
+-- If something was not detected, although the libraries
+-- were installed, then make sure you have set the
+-- CFLAGS and LDFLAGS environment variables correctly.
+-- 
+-- CMAKE_GENERATOR:         Ninja
+-- CMAKE_BINARY_DIR:         /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten
+-- CMAKE_CURRENT_BINARY_DIR: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten
+-- CMAKE_SOURCE_DIR:         /Users/jamesfolk/Work/test_project_repo
+-- CMAKE_CURRENT_SOURCE_DIR: /Users/jamesfolk/Work/test_project_repo
+-- PROJECT_BINARY_DIR: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten
+-- PROJECT_SOURCE_DIR: /Users/jamesfolk/Work/test_project_repo
+-- EXECUTABLE_OUTPUT_PATH: 
+-- LIBRARY_OUTPUT_PATH:     
+-- CMAKE_MODULE_PATH: /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/cmake/Modules/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/cmake/Modules/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/cmake/Modules/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/cmake/Modules/Users/jamesfolk/Work/test_project_repo/cmake/Users/jamesfolk/Work/test_project_repo/cmake/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/cmake/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/cmake/Users/jamesfolk/Work/test_project_repo/cmake/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/cmake
+-- CMAKE_COMMAND: /usr/local/bin/cmake
+-- CMAKE_ROOT: /usr/local/share/cmake-3.11
+-- CMAKE_CURRENT_LIST_FILE: /Users/jamesfolk/Work/test_project_repo/CMakeLists.txt
+-- CMAKE_CURRENT_LIST_LINE: 2058
+-- CMAKE_INCLUDE_PATH: 
+-- CMAKE_LIBRARY_PATH: 
+-- CMAKE_SYSTEM: Emscripten-1
+-- CMAKE_SYSTEM_NAME: Emscripten
+-- CMAKE_SYSTEM_VERSION: 1
+-- CMAKE_SYSTEM_PROCESSOR: x86
+-- UNIX: 1
+-- WIN32: 
+-- APPLE: 
+-- MINGW: 
+-- CYGWIN: 
+-- BORLAND: 
+-- MSVC: 
+-- MSVC_IDE: 
+-- MSVC60: 
+-- MSVC70: 
+-- MSVC71: 
+-- MSVC80: 
+-- CMAKE_COMPILER_2005: 
+-- CMAKE_SKIP_RULE_DEPENDENCY: 
+-- CMAKE_SKIP_INSTALL_ALL_DEPENDENCY: 
+-- CMAKE_SKIP_RPATH: NO
+-- CMAKE_VERBOSE_MAKEFILE: FALSE
+-- CMAKE_SUPPRESS_REGENERATION: 
+-- CMAKE_C_FLAGS: 
+-- CMAKE_C_FLAGS_DEBUG: --js-opts 0 -g4
+-- CMAKE_C_FLAGS_RELEASE: -O3 -DNDEBUG --llvm-opts 3 --js-opts 1 --closure 1
+-- CMAKE_C_FLAGS_MINSIZEREL: -Os -DNDEBUG --llvm-opts 3 --js-opts 1 --closure 1
+-- CMAKE_C_FLAGS_RELWITHDEBINFO: -O2 --js-opts 0 -g4 -DNDEBUG
+-- CMAKE_CXX_FLAGS: -std=c++11 -fno-exceptions
+-- CMAKE_CXX_FLAGS_DEBUG: --js-opts 0 -g4
+-- CMAKE_CXX_FLAGS_RELEASE: -O3 -DNDEBUG --llvm-opts 3 --js-opts 1 --closure 1
+-- CMAKE_CXX_FLAGS_MINSIZEREL: -Os -DNDEBUG --llvm-opts 3 --js-opts 1 --closure 1
+-- CMAKE_CXX_FLAGS_RELWITHDEBINFO: -O2 --js-opts 0 -g4 -DNDEBUG
+-- CMAKE_BUILD_TYPE: Debug
+-- BUILD_SHARED_LIBS: 
+-- CMAKE_C_COMPILER: /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc
+-- CMAKE_CXX_COMPILER: /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/em++
+-- CMAKE_COMPILER_IS_GNUCC: 
+-- CMAKE_COMPILER_IS_GNUCXX : 
+-- CMAKE_AR: /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emar
+-- CMAKE_RANLIB: /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emranlib
+-- CMAKE_EXE_LINKER_FLAGS: 
+-- CMAKE_SHARED_LINKER_FLAGS: 
+-- CMAKE_STATIC_LINKER_FLAGS: 
+-- CMAKE_OSX_SYSROOT: 
+-- CMAKE_XCODE_EFFECTIVE_PLATFORMS: 
+-- CMAKE_OSX_ARCHITECTURES: 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten
+[1/521] Swig source
+Language subdirectory: lua
+Search paths:
+   ./
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/graphics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/physics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/physics/body/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/physics/constraint/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/physics/shape/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/sound/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/steering/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/steering/behavior/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/graphics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/include/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/physics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/physics/body/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/physics/constraint/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/physics/shape/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/platform/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/sound/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/steering/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/steering/behavior/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/bullet3/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/cmake/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/cmake/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/doc/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/etc/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/exts/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/exts/luasocket/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/src/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/graphics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/physics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/physics/body/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/physics/constraint/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/physics/shape/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/sound/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/steering/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/steering/behavior/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/generated/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/generated/swig/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/generated/swig/lua/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/graphics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/graphics/opengl_2/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/graphics/opengl_3/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/graphics/opengl_es_2/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/graphics/opengl_es_3/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/modules/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/modules/lua/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/physics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/physics/body/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/physics/constraint/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/physics/shape/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/DoxyFiles.in/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/DoxyFiles.in/html/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/DoxyFiles.in/html_default/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/DoxyFiles.in/images/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/Platform.in/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/Platform.in/ios/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/Tests.in/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/Tests.in/lua/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/ldoc.in/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/emscripten/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/sound/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/sound/fmod/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/sound/openal/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/sound/sdl/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/steering/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/steering/behavior/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/sdl2_test/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/lua/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/lua/Android/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/lua/Darwin/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/lua/Emscripten/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/lua/Linux/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/lua/Windows/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletCollision/BroadphaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletCollision/CollisionDispatch/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletCollision/CollisionShapes/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletCollision/Gimpact/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletCollision/NarrowPhaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/Character/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/ConstraintSolver/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/Dynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/Featherstone/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/MLCPSolvers/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/Vehicle/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletSoftBody/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/LinearMath/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/MiniCL/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/MiniCL/MiniCLTask/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/vectormath/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/vectormath/neon/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/vectormath/scalar/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/vectormath/sse/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/opengl_2/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/opengl_3/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/opengl_es_2/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/opengl_es_3/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet2FileLoader/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet2FileLoader/autogenerated/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/BroadPhaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/BroadPhaseCollision/shared/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/NarrowPhaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/NarrowPhaseCollision/shared/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Common/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Common/shared/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Dynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Dynamics/ConstraintSolver/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Dynamics/shared/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Geometry/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/BroadphaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/BroadphaseCollision/kernels/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/Initialize/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/NarrowphaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/NarrowphaseCollision/kernels/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/ParallelPrimitives/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/ParallelPrimitives/kernels/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/Raycast/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/Raycast/kernels/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/RigidBody/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/RigidBody/kernels/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/BroadphaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/CollisionDispatch/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/CollisionShapes/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/Gimpact/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/NarrowPhaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/Character/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/ConstraintSolver/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/Dynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/Featherstone/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/MLCPSolvers/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/Vehicle/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletFileLoader/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletFileLoader/autogenerated/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletInverseDynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletInverseDynamics/details/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletSoftBody/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletWorldImporter/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletXmlWorldImporter/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/ConvexDecomposition/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/GIMPACTUtils/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/HACD/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/InverseDynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/LinearMath/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/
+   ./swig_lib/lua/
+   /usr/local/Cellar/swig/3.0.12/share/swig/3.0.12/lua/
+   ./swig_lib/
+   /usr/local/Cellar/swig/3.0.12/share/swig/3.0.12/
+Preprocessing...
+Starting language-specific parse...
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h:64: Warning 402: Base class 'btDiscreteCollisionDetectorInterface::Result' is incomplete.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h:40: Warning 402: Only forward declaration 'btDiscreteCollisionDetectorInterface::Result' was found.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/CollisionDispatch/btManifoldResult.h:39: Warning 402: Base class 'btDiscreteCollisionDetectorInterface::Result' is incomplete.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h:40: Warning 402: Only forward declaration 'btDiscreteCollisionDetectorInterface::Result' was found.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/CollisionShapes/btTriangleInfoMap.h:58: Warning 401: Nothing known about base class 'btInternalTriangleInfoMap'. Ignored.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/NarrowPhaseCollision/btPointCollector.h:23: Warning 402: Base class 'btDiscreteCollisionDetectorInterface::Result' is incomplete.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h:40: Warning 402: Only forward declaration 'btDiscreteCollisionDetectorInterface::Result' was found.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/graphics/WorldDebugDrawer.h:27: Warning 401: Nothing known about base class 'dd::RenderInterface'. Ignored.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/src/lua.h:448: Warning 451: Setting a const char * variable may leak memory.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/src/lua.h:449: Warning 451: Setting a const char * variable may leak memory.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/src/lua.h:450: Warning 451: Setting a const char * variable may leak memory.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/src/lua.h:451: Warning 451: Setting a const char * variable may leak memory.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/src/lauxlib.h:24: Warning 451: Setting a const char * variable may leak memory.
+Processing types...
+C++ analysis...
+Processing nested classes...
+Generating wrappers...
+[2/521] Building CXX object CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Emscripten/njlicLUA_wrap.cxx.o
+[3/521] Linking CXX static library libNJLIC-lua-swig-njlic-staticd.a
+[4/521] Swig source
+Language subdirectory: lua
+Search paths:
+   ./
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/graphics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/physics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/physics/body/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/physics/constraint/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/physics/shape/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/sound/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/steering/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/builders/steering/behavior/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/graphics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/include/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/physics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/physics/body/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/physics/constraint/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/physics/shape/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/platform/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/sound/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/steering/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/steering/behavior/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/bullet3/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/cmake/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/cmake/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/doc/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/etc/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/exts/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/exts/luasocket/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/lua/src/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/graphics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/physics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/physics/body/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/physics/constraint/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/physics/shape/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/sound/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/steering/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/builders/steering/behavior/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/generated/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/generated/swig/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/generated/swig/lua/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/graphics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/graphics/opengl_2/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/graphics/opengl_3/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/graphics/opengl_es_2/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/graphics/opengl_es_3/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/modules/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/modules/lua/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/physics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/physics/body/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/physics/constraint/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/physics/shape/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/DoxyFiles.in/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/DoxyFiles.in/html/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/DoxyFiles.in/html_default/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/DoxyFiles.in/images/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/Platform.in/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/Platform.in/ios/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/Tests.in/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/Tests.in/lua/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/cmake.in/ldoc.in/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/platform/emscripten/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/sound/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/sound/fmod/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/sound/openal/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/sound/sdl/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/steering/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/njli/steering/behavior/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/sdl2_test/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/lua/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/lua/Android/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/lua/Darwin/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/lua/Emscripten/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/lua/Linux/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig/lua/Windows/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/njlic/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletCollision/BroadphaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletCollision/CollisionDispatch/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletCollision/CollisionShapes/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletCollision/Gimpact/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletCollision/NarrowPhaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/Character/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/ConstraintSolver/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/Dynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/Featherstone/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/MLCPSolvers/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletDynamics/Vehicle/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/BulletSoftBody/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/LinearMath/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/MiniCL/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/MiniCL/MiniCLTask/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/vectormath/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/vectormath/neon/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/vectormath/scalar/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/bullet3/vectormath/sse/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/opengl_2/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/opengl_3/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/opengl_es_2/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/njligames-njlic_engine/swig.in/script/thirdparty/opengl_es_3/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet2FileLoader/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet2FileLoader/autogenerated/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/BroadPhaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/BroadPhaseCollision/shared/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/NarrowPhaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Collision/NarrowPhaseCollision/shared/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Common/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Common/shared/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Dynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Dynamics/ConstraintSolver/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Dynamics/shared/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3Geometry/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/BroadphaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/BroadphaseCollision/kernels/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/Initialize/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/NarrowphaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/NarrowphaseCollision/kernels/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/ParallelPrimitives/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/ParallelPrimitives/kernels/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/Raycast/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/Raycast/kernels/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/RigidBody/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/Bullet3OpenCL/RigidBody/kernels/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/BroadphaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/CollisionDispatch/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/CollisionShapes/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/Gimpact/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/NarrowPhaseCollision/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/Character/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/ConstraintSolver/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/Dynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/Featherstone/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/MLCPSolvers/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletDynamics/Vehicle/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletFileLoader/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletFileLoader/autogenerated/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletInverseDynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletInverseDynamics/details/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletSoftBody/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletWorldImporter/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletXmlWorldImporter/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/ConvexDecomposition/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/GIMPACTUtils/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/HACD/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/InverseDynamics/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/LinearMath/
+   /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/
+   ./swig_lib/lua/
+   /usr/local/Cellar/swig/3.0.12/share/swig/3.0.12/lua/
+   ./swig_lib/
+   /usr/local/Cellar/swig/3.0.12/share/swig/3.0.12/
+Preprocessing...
+Starting language-specific parse...
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h:64: Warning 402: Base class 'btDiscreteCollisionDetectorInterface::Result' is incomplete.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h:40: Warning 402: Only forward declaration 'btDiscreteCollisionDetectorInterface::Result' was found.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/CollisionDispatch/btManifoldResult.h:39: Warning 402: Base class 'btDiscreteCollisionDetectorInterface::Result' is incomplete.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h:40: Warning 402: Only forward declaration 'btDiscreteCollisionDetectorInterface::Result' was found.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/CollisionShapes/btTriangleInfoMap.h:58: Warning 401: Nothing known about base class 'btInternalTriangleInfoMap'. Ignored.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/NarrowPhaseCollision/btPointCollector.h:23: Warning 402: Base class 'btDiscreteCollisionDetectorInterface::Result' is incomplete.
+/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/thirdparty/bullet3/lib/emscripten/include/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h:40: Warning 402: Only forward declaration 'btDiscreteCollisionDetectorInterface::Result' was found.
+Processing types...
+C++ analysis...
+Processing nested classes...
+Generating wrappers...
+[5/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/modules/lua/lbit.c.o
+[6/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/AbstractTransform.cpp.o
+[7/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/AbstractDecorator.cpp.o
+[8/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/GameClock.cpp.o
+[9/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/JLIFactoryTypes.cpp.o
+[10/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/AbstractFactoryObject.cpp.o
+[11/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/CollisionResponse.cpp.o
+[12/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Clock.cpp.o
+[13/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o
+[14/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Action.cpp.o
+[15/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/AbstractActionable.cpp.o
+[16/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Font.cpp.o
+[17/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Camera.cpp.o
+[18/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/AbstractRender.cpp.o
+[19/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Image.cpp.o
+[20/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/JsonJLI.cpp.o
+[21/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/AbstractFrameBufferObject.cpp.o
+[22/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp.o
+[23/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/MaterialProperty.cpp.o
+[24/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/Geometry.cpp.o
+[25/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Node.cpp.o
+[26/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/ShaderProgram.cpp.o
+[27/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/MeshGeometry.cpp.o
+[28/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/WorldDebugDrawer.cpp.o
+[29/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/PhysicsCloseContact.cpp.o
+[30/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/PhysicsContact.cpp.o
+[31/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/PhysicsField.cpp.o
+[32/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/PhysicsRayContact.cpp.o
+[33/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/PhysicsWorld.cpp.o
+[34/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/body/PhysicsBody.cpp.o
+[35/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyGhost.cpp.o
+[36/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyRigid.cpp.o
+[37/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodySoft.cpp.o
+[38/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraint.cpp.o
+[39/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintConeTwist.cpp.o
+[40/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintFixed.cpp.o
+[41/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6DofSpring.cpp.o
+[42/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6Dof.cpp.o
+[43/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintPointToPoint.cpp.o
+[44/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintHinge.cpp.o
+[45/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintSlider.cpp.o
+[46/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShape.cpp.o
+[47/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox.cpp.o
+[48/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox2D.cpp.o
+[49/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBvhTriangleMesh.cpp.o
+[50/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/platform/ColorUtil.cpp.o
+[51/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCapsule.cpp.o
+[52/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/platform/DeviceMouse.cpp.o
+[53/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCone.cpp.o
+[54/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexHull.cpp.o
+[55/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/platform/DeviceUtil.cpp.o
+[56/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexTriangleMesh.cpp.o
+[57/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCylinder.cpp.o
+[58/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeHeightfieldTerrain.cpp.o
+[59/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeMultiSphere.cpp.o
+[60/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeSphere.cpp.o
+[61/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/platform/android_file.cpp.o
+[62/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeStaticPlane.cpp.o
+[63/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/platform/emscripten/Localization.cpp.o
+[64/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/platform/NJLIInterface.cpp.o
+[65/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/platform/Engine.cpp.o
+njligames-njlic_engine/njli/platform/Engine.cpp:1614:11: warning: 'emscripten_get_canvas_size' is deprecated: This variant does not allow specifying the target canvas [-Wdeprecated-declarations]
+          emscripten_get_canvas_size(&gDisplayMode.w, &gDisplayMode.h, &fullScreen);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+          Use emscripten_get_canvas_element_size() and emscripten_get_fullscreen_status() instead
+/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/system/include/emscripten/emscripten.h:143:92: note: 'emscripten_get_canvas_size' has been explicitly marked deprecated here
+void emscripten_get_canvas_size(int *width, int *height, int *isFullscreen) __attribute__((deprecated("This variant does not allow specifying the target canvas", "Use emscripten_get_canvas_element_size() and emscripten_get_fullscreen_status() instead")));
+                                                                                           ^
+1 warning generated.
+[66/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/platform/easylogger.cpp.o
+[67/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_OGG.cpp.o
+[68/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_RAW.cpp.o
+[69/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/platform/Game.cpp.o
+[70/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/platform/WorldInput.cpp.o
+[71/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_WAV.cpp.o
+[72/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/sound/openal/WorldSound.cpp.o
+[73/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/platform/emscripten/DeviceTouch.cpp.o
+[74/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/platform/emscripten/File.cpp.o
+[75/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/platform/emscripten/Log.cpp.o
+[76/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/sound/openal/Sound.cpp.o
+[77/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineDithered.cpp.o
+[78/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachinePrioritized.cpp.o
+[79/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachine.cpp.o
+[80/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineWeighted.cpp.o
+[81/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorAlignment.cpp.o
+[82/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehavior.cpp.o
+[83/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorArrive.cpp.o
+[84/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorCohesion.cpp.o
+[85/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorEvade.cpp.o
+[86/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFlee.cpp.o
+[87/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFollowPath.cpp.o
+[88/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorHide.cpp.o
+[89/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorInterpose.cpp.o
+[90/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorObstacleAvoidance.cpp.o
+[91/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorPursuit.cpp.o
+[92/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lauxlib.c.o
+[93/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lapi.c.o
+[94/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorOffsetPursuit.cpp.o
+[95/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeek.cpp.o
+[96/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lbitlib.c.o
+[97/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lbaselib.c.o
+[98/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp.o
+[99/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lctype.c.o
+[100/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lcorolib.c.o
+[101/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lcode.c.o
+[102/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/ldblib.c.o
+[103/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/ldebug.c.o
+[104/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/ldump.c.o
+[105/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lfunc.c.o
+[106/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/ldo.c.o
+[107/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp.o
+[108/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/linit.c.o
+[109/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/llex.c.o
+[110/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/liolib.c.o
+[111/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lgc.c.o
+[112/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lmathlib.c.o
+[113/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lmem.c.o
+[114/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/loadlib.c.o
+[115/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lobject.c.o
+[116/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lopcodes.c.o
+[117/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/loslib.c.o
+[118/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lstring.c.o
+[119/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lstate.c.o
+[120/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lparser.c.o
+[121/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lstrlib.c.o
+[122/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/ltable.c.o
+[123/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/ltablib.c.o
+[124/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/ltm.c.o
+[125/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.o
+[126/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldClock.cpp.o
+[127/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/NodeState.cpp.o
+[128/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/SceneState.cpp.o
+[129/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/NodeStateMachine.cpp.o
+[130/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/StopWatch.cpp.o
+[131/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Timer.cpp.o
+[132/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/SceneStateMachine.cpp.o
+[133/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Thread.cpp.o
+[134/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/World.cpp.o
+[135/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Scene.cpp.o
+[136/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/AbstractBuilder.cpp.o
+[137/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldSocket.cpp.o
+[138/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldFactory.cpp.o
+[139/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/Xml.cpp.o
+[140/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldStateMachine.cpp.o
+[141/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldState.cpp.o
+[142/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o
+[143/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ActionBuilder.cpp.o
+[144/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldLuaVirtualMachine.cpp.o
+[145/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/WorldResourceLoader.cpp.o
+[146/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/CameraBuilder.cpp.o
+[147/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ClockBuilder.cpp.o
+[148/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/CollisionResponseBuilder.cpp.o
+[149/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/FontBuilder.cpp.o
+[150/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/JsonJLIBuilder.cpp.o
+[151/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ImageBuilder.cpp.o
+[152/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/LevelOfDetailBuilder.cpp.o
+[153/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/LightBuilder.cpp.o
+[154/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/NodeBuilder.cpp.o
+[155/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/NodeStateBuilder.cpp.o
+[156/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/NodeStateMachineBuilder.cpp.o
+[157/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ParticleEmitterBuilder.cpp.o
+[158/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/PlaneBuilder.cpp.o
+[159/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SceneBuilder.cpp.o
+[160/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SceneStateMachineBuilder.cpp.o
+[161/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SceneStateBuilder.cpp.o
+[162/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SkinnerBuilder.cpp.o
+[163/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/StopWatchBuilder.cpp.o
+[164/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/SpriteFrameAtlasBuilder.cpp.o
+[165/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/ThreadBuilder.cpp.o
+[166/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/TimerBuilder.cpp.o
+[167/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/WorldStateBuilder.cpp.o
+[168/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/WorldStateMachineBuilder.cpp.o
+[169/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/XmlBuilder.cpp.o
+[170/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/CheckboxHUDBuilder.cpp.o
+[171/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ButtonHUDBuilder.cpp.o
+[172/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/CubeBuilder.cpp.o
+[173/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/LabelHUDBuilder.cpp.o
+[174/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/DropdownHUDBuilder.cpp.o
+[175/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MaterialBuilder.cpp.o
+[176/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.cpp.o
+[177/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp.o
+[178/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.cpp.o
+[179/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/TextboxHUDBuilder.cpp.o
+[180/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.cpp.o
+[181/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsCloseContactBuilder.cpp.o
+[182/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsContactBuilder.cpp.o
+[183/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsRayContactBuilder.cpp.o
+[184/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsFieldBuilder.cpp.o
+[185/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/PhysicsWorldBuilder.cpp.o
+[186/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyGhostBuilder.cpp.o
+[187/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyRigidBuilder.cpp.o
+[188/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintBuilder.cpp.o
+[189/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintFixedBuilder.cpp.o
+[190/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintConeTwistBuilder.cpp.o
+[191/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodySoftBuilder.cpp.o
+[192/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofBuilder.cpp.o
+[193/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintHingeBuilder.cpp.o
+[194/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofSpringBuilder.cpp.o
+[195/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintPointToPointBuilder.cpp.o
+[196/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintSliderBuilder.cpp.o
+[197/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBox2DBuilder.cpp.o
+[198/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBvhTriangleMeshBuilder.cpp.o
+[199/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCapsuleBuilder.cpp.o
+[200/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBoxBuilder.cpp.o
+[201/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConeBuilder.cpp.o
+[202/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexHullBuilder.cpp.o
+[203/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCylinderBuilder.cpp.o
+[204/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexTriangleMeshBuilder.cpp.o
+[205/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeHeightfieldTerrainBuilder.cpp.o
+[206/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeMultiSphereBuilder.cpp.o
+[207/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeSphereBuilder.cpp.o
+[208/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeStaticPlaneBuilder.cpp.o
+[209/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/sound/SoundBuilder.cpp.o
+[210/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineBuilder.cpp.o
+[211/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineDitheredBuilder.cpp.o
+[212/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachinePrioritizedBuilder.cpp.o
+[213/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineWeightedBuilder.cpp.o
+[214/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorAlignmentBuilder.cpp.o
+[215/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorArriveBuilder.cpp.o
+[216/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorBuilder.cpp.o
+[217/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorCohesionBuilder.cpp.o
+[218/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorEvadeBuilder.cpp.o
+[219/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFollowPathBuilder.cpp.o
+[220/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFleeBuilder.cpp.o
+[221/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorHideBuilder.cpp.o
+[222/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorInterposeBuilder.cpp.o
+[223/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp.o
+[224/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorObstacleAvoidanceBuilder.cpp.o
+[225/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorOffsetPursuitBuilder.cpp.o
+[226/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorPursuitBuilder.cpp.o
+[227/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeekBuilder.cpp.o
+[228/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeparationBuilder.cpp.o
+[229/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.o
+[230/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWallAvoidanceBuilder.cpp.o
+[231/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.o
+[232/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp.o
+[233/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Light.cpp.o
+[234/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Material.cpp.o
+[235/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/AbstractRender.cpp.o
+[236/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Plane.cpp.o
+[237/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp.o
+[238/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.o
+[239/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/Sprite2D.cpp.o
+[240/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/AbstractFrameBufferObject.cpp.o
+[241/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/SpriteFrameAtlas.cpp.o
+[242/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/Geometry.cpp.o
+[243/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/MaterialProperty.cpp.o
+[244/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsContact.cpp.o
+[245/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsCloseContact.cpp.o
+[246/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/MeshGeometry.cpp.o
+[247/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/ShaderProgram.cpp.o
+[248/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/graphics/opengl_es_2/WorldDebugDrawer.cpp.o
+[249/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsField.cpp.o
+[250/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsRayContact.cpp.o
+[251/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/PhysicsWorld.cpp.o
+[252/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyGhost.cpp.o
+[253/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBody.cpp.o
+[254/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodySoft.cpp.o
+[255/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/body/PhysicsBodyRigid.cpp.o
+[256/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraint.cpp.o
+[257/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintFixed.cpp.o
+[258/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintConeTwist.cpp.o
+[259/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6Dof.cpp.o
+[260/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintGeneric6DofSpring.cpp.o
+[261/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintHinge.cpp.o
+[262/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintPointToPoint.cpp.o
+[263/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/constraint/PhysicsConstraintSlider.cpp.o
+[264/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShape.cpp.o
+[265/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox.cpp.o
+[266/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBox2D.cpp.o
+[267/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeBvhTriangleMesh.cpp.o
+[268/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCapsule.cpp.o
+[269/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceMouse.cpp.o
+[270/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/ColorUtil.cpp.o
+[271/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCone.cpp.o
+[272/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/DeviceUtil.cpp.o
+[273/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexTriangleMesh.cpp.o
+[274/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeConvexHull.cpp.o
+[275/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeCylinder.cpp.o
+[276/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeHeightfieldTerrain.cpp.o
+[277/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/android_file.cpp.o
+[278/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeSphere.cpp.o
+[279/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeMultiSphere.cpp.o
+[280/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/physics/shape/PhysicsShapeStaticPlane.cpp.o
+[281/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Engine.cpp.o
+njligames-njlic_engine/njli/platform/Engine.cpp:1614:11: warning: 'emscripten_get_canvas_size' is deprecated: This variant does not allow specifying the target canvas [-Wdeprecated-declarations]
+          emscripten_get_canvas_size(&gDisplayMode.w, &gDisplayMode.h, &fullScreen);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+          Use emscripten_get_canvas_element_size() and emscripten_get_fullscreen_status() instead
+/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/system/include/emscripten/emscripten.h:143:92: note: 'emscripten_get_canvas_size' has been explicitly marked deprecated here
+void emscripten_get_canvas_size(int *width, int *height, int *isFullscreen) __attribute__((deprecated("This variant does not allow specifying the target canvas", "Use emscripten_get_canvas_element_size() and emscripten_get_fullscreen_status() instead")));
+                                                                                           ^
+1 warning generated.
+[282/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/NJLIInterface.cpp.o
+[283/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/emscripten/Localization.cpp.o
+[284/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/Game.cpp.o
+[285/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/easylogger.cpp.o
+[286/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_OGG.cpp.o
+[287/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/WorldSound.cpp.o
+[288/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_RAW.cpp.o
+[289/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Wrapper_WAV.cpp.o
+[290/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/emscripten/DeviceTouch.cpp.o
+[291/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/emscripten/File.cpp.o
+[292/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/WorldInput.cpp.o
+[293/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/emscripten/Log.cpp.o
+[294/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/sound/openal/Sound.cpp.o
+[295/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachine.cpp.o
+[296/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineDithered.cpp.o
+[297/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachinePrioritized.cpp.o
+[298/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/SteeringBehaviorMachineWeighted.cpp.o
+[299/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehavior.cpp.o
+[300/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorAlignment.cpp.o
+[301/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorCohesion.cpp.o
+[302/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorArrive.cpp.o
+[303/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorEvade.cpp.o
+[304/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFlee.cpp.o
+[305/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorFollowPath.cpp.o
+[306/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorHide.cpp.o
+[307/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lapi.c.o
+[308/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorInterpose.cpp.o
+[309/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorObstacleAvoidance.cpp.o
+[310/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lauxlib.c.o
+[311/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorOffsetPursuit.cpp.o
+[312/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbaselib.c.o
+[313/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lbitlib.c.o
+[314/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcorolib.c.o
+[315/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lcode.c.o
+[316/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorPursuit.cpp.o
+[317/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lctype.c.o
+[318/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeek.cpp.o
+[319/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp.o
+[320/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldblib.c.o
+[321/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldebug.c.o
+[322/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldump.c.o
+[323/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ldo.c.o
+[324/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lfunc.c.o
+[325/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lgc.c.o
+[326/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/linit.c.o
+[327/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp.o
+[328/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmathlib.c.o
+[329/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/llex.c.o
+[330/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/liolib.c.o
+[331/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lmem.c.o
+[332/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loadlib.c.o
+[333/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lobject.c.o
+[334/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lopcodes.c.o
+[335/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.o
+[336/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstring.c.o
+[337/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/loslib.c.o
+[338/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lparser.c.o
+[339/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstate.c.o
+[340/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltable.c.o
+[341/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lstrlib.c.o
+[342/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltablib.c.o
+[343/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/ltm.c.o
+[344/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lundump.c.o
+[345/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o
+[346/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lzio.c.o
+[347/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o
+[348/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o
+[349/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o
+[350/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o
+[351/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o
+[352/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/src/lvm.c.o
+[353/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o
+[354/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o
+[355/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o
+[356/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o
+[357/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o
+[358/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o
+[359/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o
+[360/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o
+[361/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o
+[362/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o
+[363/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o
+[364/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o
+[365/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o
+[366/521] Building CXX object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/platform/main.cpp.o
+[367/521] Building C object CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o
+[368/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/WorldClock.cpp.o
+[369/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/WorldSocket.cpp.o
+[370/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/modules/lua/lbit.c.o
+[371/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/Timer.cpp.o
+[372/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/WorldState.cpp.o
+[373/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/WorldStateMachine.cpp.o
+[374/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/World.cpp.o
+[375/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/Xml.cpp.o
+[376/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/AbstractTransform.cpp.o
+[377/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/WorldLuaVirtualMachine.cpp.o
+[378/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/WorldResourceLoader.cpp.o
+[379/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/AbstractDecorator.cpp.o
+[380/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/ActionBuilder.cpp.o
+[381/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/WorldFactory.cpp.o
+[382/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/JLIFactoryTypes.cpp.o
+[383/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/GameClock.cpp.o
+[384/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/AbstractActionable.cpp.o
+[385/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/AbstractFactoryObject.cpp.o
+[386/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/Action.cpp.o
+[387/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/Clock.cpp.o
+[388/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/Camera.cpp.o
+[389/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/Font.cpp.o
+[390/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/CollisionResponse.cpp.o
+[391/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/Image.cpp.o
+[392/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/JsonJLI.cpp.o
+[393/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/AbstractBuilder.cpp.o
+[394/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/NodeState.cpp.o
+[395/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/Node.cpp.o
+[396/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/NodeStateMachine.cpp.o
+[397/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/Thread.cpp.o
+[398/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/SceneState.cpp.o
+[399/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/SceneStateMachine.cpp.o
+[400/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/StopWatch.cpp.o
+[401/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/Scene.cpp.o
+[402/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/CameraBuilder.cpp.o
+[403/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/ClockBuilder.cpp.o
+[404/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/CollisionResponseBuilder.cpp.o
+[405/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/FontBuilder.cpp.o
+[406/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/ImageBuilder.cpp.o
+[407/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/JsonJLIBuilder.cpp.o
+[408/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/LevelOfDetailBuilder.cpp.o
+[409/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/LightBuilder.cpp.o
+[410/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/NodeBuilder.cpp.o
+[411/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/NodeStateBuilder.cpp.o
+[412/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/NodeStateMachineBuilder.cpp.o
+[413/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/ParticleEmitterBuilder.cpp.o
+[414/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/PlaneBuilder.cpp.o
+[415/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/SceneBuilder.cpp.o
+[416/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/SceneStateBuilder.cpp.o
+[417/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/SkinnerBuilder.cpp.o
+[418/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/SpriteFrameAtlasBuilder.cpp.o
+[419/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/StopWatchBuilder.cpp.o
+[420/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/SceneStateMachineBuilder.cpp.o
+[421/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/ThreadBuilder.cpp.o
+[422/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/TimerBuilder.cpp.o
+[423/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/WorldStateBuilder.cpp.o
+[424/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/WorldStateMachineBuilder.cpp.o
+[425/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/XmlBuilder.cpp.o
+[426/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/ButtonHUDBuilder.cpp.o
+[427/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/DropdownHUDBuilder.cpp.o
+[428/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/CheckboxHUDBuilder.cpp.o
+[429/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/CubeBuilder.cpp.o
+[430/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/LabelHUDBuilder.cpp.o
+[431/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/MaterialBuilder.cpp.o
+[432/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/MaterialPropertyBuilder.cpp.o
+[433/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/MeshGeometryBuilder.cpp.o
+[434/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/ShaderProgramBuilder.cpp.o
+[435/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/SliderHUDBuilder.cpp.o
+[436/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/Sprite2DBuilder.cpp.o
+[437/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/graphics/TextboxHUDBuilder.cpp.o
+[438/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/PhysicsFieldBuilder.cpp.o
+[439/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/PhysicsContactBuilder.cpp.o
+[440/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/PhysicsCloseContactBuilder.cpp.o
+[441/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/PhysicsRayContactBuilder.cpp.o
+[442/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/PhysicsWorldBuilder.cpp.o
+[443/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyGhostBuilder.cpp.o
+[444/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodyRigidBuilder.cpp.o
+[445/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/body/PhysicsBodySoftBuilder.cpp.o
+[446/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintBuilder.cpp.o
+[447/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintConeTwistBuilder.cpp.o
+[448/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofSpringBuilder.cpp.o
+[449/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintGeneric6DofBuilder.cpp.o
+[450/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintFixedBuilder.cpp.o
+[451/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintHingeBuilder.cpp.o
+[452/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintPointToPointBuilder.cpp.o
+[453/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/constraint/PhysicsConstraintSliderBuilder.cpp.o
+[454/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBox2DBuilder.cpp.o
+[455/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBoxBuilder.cpp.o
+[456/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeBvhTriangleMeshBuilder.cpp.o
+[457/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConeBuilder.cpp.o
+[458/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexTriangleMeshBuilder.cpp.o
+[459/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCapsuleBuilder.cpp.o
+[460/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeConvexHullBuilder.cpp.o
+[461/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeCylinderBuilder.cpp.o
+[462/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeHeightfieldTerrainBuilder.cpp.o
+[463/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeMultiSphereBuilder.cpp.o
+[464/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeSphereBuilder.cpp.o
+[465/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/physics/shape/PhysicsShapeStaticPlaneBuilder.cpp.o
+[466/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/sound/SoundBuilder.cpp.o
+[467/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachinePrioritizedBuilder.cpp.o
+[468/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineBuilder.cpp.o
+[469/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineWeightedBuilder.cpp.o
+[470/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/SteeringBehaviorMachineDitheredBuilder.cpp.o
+[471/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorAlignmentBuilder.cpp.o
+[472/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorArriveBuilder.cpp.o
+[473/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorBuilder.cpp.o
+[474/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorCohesionBuilder.cpp.o
+[475/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorEvadeBuilder.cpp.o
+[476/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lundump.c.o
+[477/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o
+[478/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFleeBuilder.cpp.o
+[479/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lzio.c.o
+[480/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/src/lvm.c.o
+[481/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorHideBuilder.cpp.o
+[482/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorInterposeBuilder.cpp.o
+[483/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorFollowPathBuilder.cpp.o
+[484/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorObstacleAvoidanceBuilder.cpp.o
+[485/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorOffsetPursuitBuilder.cpp.o
+[486/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o
+[487/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o
+[488/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o
+[489/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o
+[490/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o
+[491/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o
+[492/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o
+[493/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o
+[494/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o
+[495/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o
+[496/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o
+[497/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o
+[498/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o
+[499/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o
+[500/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o
+[501/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o
+[502/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o
+[503/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o
+[504/521] Building C object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o
+[505/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/ImGuizmo.cpp.o
+[506/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorPursuitBuilder.cpp.o
+[507/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeekBuilder.cpp.o
+[508/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/Light.cpp.o
+[509/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWanderBuilder.cpp.o
+[510/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorWallAvoidanceBuilder.cpp.o
+[511/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/builders/steering/behavior/SteeringBehaviorSeparationBuilder.cpp.o
+[512/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/Material.cpp.o
+[513/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/Plane.cpp.o
+[514/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/ParticleEmitter.cpp.o
+[515/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/LevelOfDetail.cpp.o
+[516/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/Skinner.cpp.o
+[517/521] Building CXX object CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/graphics/Cube.cpp.o
+[518/521] Building CXX object CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Emscripten/bullet3LUA_wrap.cxx.o
+[519/521] Linking CXX static library libNJLIC-lua-swig-bullet3-staticd.a
+[520/521] Linking CXX static library libNJLIC-staticd.a
+[521/521] Linking CXX executable NJLIC-exe.html
+INFO:root:(Emscripten: Running sanity checks)
+INFO:root:(Emscripten: Running sanity checks)
+WARNING:root:emcc: cannot find library "iconv"
+WARNING:root:emcc: cannot find library "iconv"
+INFO:root:generating system library: libcxx_noexcept.a... (this will be cached in "/Users/jamesfolk/.emscripten_cache/asmjs/libcxx_noexcept.a" for subsequent builds)
+INFO:root: - ok
+INFO:root:generating system library: libcxxabi.bc... (this will be cached in "/Users/jamesfolk/.emscripten_cache/asmjs/libcxxabi.bc" for subsequent builds)
+INFO:root: - ok
+INFO:root:generating system library: gl.bc... (this will be cached in "/Users/jamesfolk/.emscripten_cache/asmjs/gl.bc" for subsequent builds)
+INFO:root: - ok
+INFO:root:generating system library: dlmalloc_debug.bc... (this will be cached in "/Users/jamesfolk/.emscripten_cache/asmjs/dlmalloc_debug.bc" for subsequent builds)
+INFO:root: - ok
+Success.
+warning: undefined symbol: oggpack_adv
+warning: undefined symbol: oggpack_bytes
+warning: undefined symbol: oggpack_look
+warning: undefined symbol: oggpack_read
+warning: undefined symbol: oggpack_readinit
+warning: undefined symbol: oggpack_write
+warning: undefined symbol: oggpack_writeclear
+warning: undefined symbol: oggpack_writeinit
