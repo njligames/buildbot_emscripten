@@ -28033,3 +28033,825 @@ ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/j
 ninja: build stopped: subcommand failed.
 
 
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_04705"
+[1/2] Building C object CMakeFiles/cmTC_04705.dir/src.c.o
+FAILED: CMakeFiles/cmTC_04705.dir/src.c.o 
+/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc   -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2 -o CMakeFiles/cmTC_04705.dir/src.c.o   -c src.c
+clang: error: unknown argument: '-mpreferred-stack-boundary=2'
+ERROR:root:compiler frontend failed to generate LLVM bitcode, halting
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_03bd8"
+[1/2] Building C object CMakeFiles/cmTC_03bd8.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_03bd8.js
+FAILED: cmTC_03bd8.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_strrev -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_03bd8.dir/CheckFunctionExists.c.o  -o cmTC_03bd8.js   && :
+error: undefined symbol: _strrev
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpoB69Q3.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_a445c"
+[1/2] Building C object CMakeFiles/cmTC_a445c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a445c.js
+FAILED: cmTC_a445c.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_strupr -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_a445c.dir/CheckFunctionExists.c.o  -o cmTC_a445c.js   && :
+error: undefined symbol: _strupr
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpSngoTm.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_ec723"
+[1/2] Building C object CMakeFiles/cmTC_ec723.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ec723.js
+FAILED: cmTC_ec723.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_strlwr -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_ec723.dir/CheckFunctionExists.c.o  -o cmTC_ec723.js   && :
+error: undefined symbol: _strlwr
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpMwePNV.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_3db8a"
+[1/2] Building C object CMakeFiles/cmTC_3db8a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_3db8a.js
+FAILED: cmTC_3db8a.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=itoa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_3db8a.dir/CheckFunctionExists.c.o  -o cmTC_3db8a.js   && :
+error: undefined symbol: itoa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpLy44NQ.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_1f0e9"
+[1/2] Building C object CMakeFiles/cmTC_1f0e9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1f0e9.js
+FAILED: cmTC_1f0e9.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_ltoa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_1f0e9.dir/CheckFunctionExists.c.o  -o cmTC_1f0e9.js   && :
+error: undefined symbol: _ltoa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpxFaoe4.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_c0abd"
+[1/2] Building C object CMakeFiles/cmTC_c0abd.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c0abd.js
+FAILED: cmTC_c0abd.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_uitoa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_c0abd.dir/CheckFunctionExists.c.o  -o cmTC_c0abd.js   && :
+error: undefined symbol: _uitoa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpBhem3y.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_2dde3"
+[1/2] Building C object CMakeFiles/cmTC_2dde3.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_2dde3.js
+FAILED: cmTC_2dde3.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_ultoa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_2dde3.dir/CheckFunctionExists.c.o  -o cmTC_2dde3.js   && :
+error: undefined symbol: _ultoa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmp7zvHgR.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_03e7a"
+[1/2] Building C object CMakeFiles/cmTC_03e7a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_03e7a.js
+FAILED: cmTC_03e7a.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_i64toa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_03e7a.dir/CheckFunctionExists.c.o  -o cmTC_03e7a.js   && :
+error: undefined symbol: _i64toa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmp6_wa8b.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_d5d86"
+[1/2] Building C object CMakeFiles/cmTC_d5d86.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d5d86.js
+FAILED: cmTC_d5d86.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_ui64toa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_d5d86.dir/CheckFunctionExists.c.o  -o cmTC_d5d86.js   && :
+error: undefined symbol: _ui64toa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpPm6t8u.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_afdab"
+[1/2] Building C object CMakeFiles/cmTC_afdab.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_afdab.js
+FAILED: cmTC_afdab.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_stricmp -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_afdab.dir/CheckFunctionExists.c.o  -o cmTC_afdab.js   && :
+error: undefined symbol: _stricmp
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmphHazT5.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_c9759"
+[1/2] Building C object CMakeFiles/cmTC_c9759.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c9759.js
+FAILED: cmTC_c9759.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_strnicmp -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_c9759.dir/CheckFunctionExists.c.o  -o cmTC_c9759.js   && :
+error: undefined symbol: _strnicmp
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpGFZBuv.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function setjmp exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_eb386"
+[1/2] Building C object CMakeFiles/cmTC_eb386.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: declaration of built-in function 'setjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS setjmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_eb386.js
+FAILED: cmTC_eb386.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=setjmp -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_eb386.dir/CheckFunctionExists.c.o  -o cmTC_eb386.js   && :
+0  llc                      0x0000000103ba4208 llvm::sys::PrintStackTrace(llvm::raw_ostream&) + 40
+1  llc                      0x0000000103ba4836 SignalHandler(int) + 358
+2  libsystem_platform.dylib 0x00007fff68da7f5a _sigtramp + 26
+3  libsystem_platform.dylib 0x00007fde4000fc40 _sigtramp + 3609623808
+4  llc                      0x000000010363b2a3 std::__1::pair<llvm::StringMapIterator<llvm::ConstantDataSequential*>, bool> llvm::StringMap<llvm::ConstantDataSequential*, llvm::MallocAllocator>::try_emplace<llvm::ConstantDataSequential*>(llvm::StringRef, llvm::ConstantDataSequential*&&) + 35
+5  llc                      0x0000000103633578 llvm::ConstantDataSequential::getImpl(llvm::StringRef, llvm::Type*) + 120
+6  llc                      0x0000000103d16b8f (anonymous namespace)::FlattenGlobals::runOnModule(llvm::Module&) + 2591
+7  llc                      0x00000001036bfe18 llvm::legacy::PassManagerImpl::run(llvm::Module&) + 920
+8  llc                      0x0000000102edae54 compileModule(char**, llvm::LLVMContext&) + 10516
+9  llc                      0x0000000102ed832b main + 1259
+10 libdyld.dylib            0x00007fff68a99015 start + 1
+11 libdyld.dylib            0x000000000000000c start + 2539024376
+Stack dump:
+0.	Program arguments: /Users/jamesfolk/Work/tools/emsdk/clang/e1.38.13_64bit/llc /tmp/tmp2CJws8/cmTC_eb386.bc -march=js -filetype=asm -o /tmp/tmpmlkrnG.4.js -emscripten-stack-size=5242880 -O0 -emscripten-assertions=1 -emscripten-no-aliasing-function-pointers -emscripten-global-base=8 -emscripten-no-exit-runtime 
+1.	Running pass 'Flatten global variable initializers into byte arrays' on module '/tmp/tmp2CJws8/cmTC_eb386.bc'.
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc.py", line 3092, in <module>
+    sys.exit(run())
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc.py", line 1808, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/tools/shared.py", line 2253, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 2328, in _main
+    return temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/tools/tempfiles.py", line 98, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 2333, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 2259, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 96, in emscript
+    backend_output = compile_js(infile, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 125, in compile_js
+    jsrun.timeout_run(subprocess.Popen(backend_args, stdout=subprocess.PIPE, universal_newlines=True), note_args=backend_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/tools/jsrun.py", line 24, in timeout_run
+    raise Exception('Subprocess "' + ' '.join(note_args) + '" failed with exit code ' + str(proc.returncode) + '!')
+Exception: Subprocess "/Users/jamesfolk/Work/tools/emsdk/clang/e1.38.13_64bit/llc /tmp/tmp2CJws8/cmTC_eb386.bc -march=js -filetype=asm -o /tmp/tmpmlkrnG.4.js -emscripten-stack-size=5242880 -O0 -emscripten-assertions=1 -emscripten-no-aliasing-function-pointers -emscripten-global-base=8 -emscripten-no-exit-runtime" failed with exit code -11!
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_960e5"
+[1/2] Building C object CMakeFiles/cmTC_960e5.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_960e5.js
+FAILED: cmTC_960e5.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=sysctlbyname -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_960e5.dir/CheckFunctionExists.c.o  -o cmTC_960e5.js   && :
+error: undefined symbol: sysctlbyname
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpgtTc5u.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_3faad"
+[1/2] Building C object CMakeFiles/cmTC_3faad.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'alloca' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'alloca' is a builtin with type 'void *(unsigned long)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_3faad.js
+FAILED: cmTC_3faad.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=alloca -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_3faad.dir/CheckFunctionExists.c.o  -o cmTC_3faad.js   && :
+error: undefined symbol: alloca
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpD0IpnT.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_29192"
+[1/2] Building C object CMakeFiles/cmTC_29192.dir/src.c.o
+FAILED: CMakeFiles/cmTC_29192.dir/src.c.o 
+/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc   -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2 -o CMakeFiles/cmTC_29192.dir/src.c.o   -c src.c
+clang: error: unknown argument: '-mpreferred-stack-boundary=2'
+ERROR:root:compiler frontend failed to generate LLVM bitcode, halting
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_0014d"
+[1/2] Building C object CMakeFiles/cmTC_0014d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0014d.js
+FAILED: cmTC_0014d.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_strrev -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_0014d.dir/CheckFunctionExists.c.o  -o cmTC_0014d.js   && :
+error: undefined symbol: _strrev
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpKxdhoJ.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_71a93"
+[1/2] Building C object CMakeFiles/cmTC_71a93.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_71a93.js
+FAILED: cmTC_71a93.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_strupr -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_71a93.dir/CheckFunctionExists.c.o  -o cmTC_71a93.js   && :
+error: undefined symbol: _strupr
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpmQ7KVw.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_156fb"
+[1/2] Building C object CMakeFiles/cmTC_156fb.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_156fb.js
+FAILED: cmTC_156fb.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_strlwr -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_156fb.dir/CheckFunctionExists.c.o  -o cmTC_156fb.js   && :
+error: undefined symbol: _strlwr
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmp4UT0Yy.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_497e7"
+[1/2] Building C object CMakeFiles/cmTC_497e7.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_497e7.js
+FAILED: cmTC_497e7.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=itoa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_497e7.dir/CheckFunctionExists.c.o  -o cmTC_497e7.js   && :
+error: undefined symbol: itoa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpu95Bu_.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_0d063"
+[1/2] Building C object CMakeFiles/cmTC_0d063.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0d063.js
+FAILED: cmTC_0d063.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_ltoa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_0d063.dir/CheckFunctionExists.c.o  -o cmTC_0d063.js   && :
+error: undefined symbol: _ltoa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpLXOJDJ.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_2c037"
+[1/2] Building C object CMakeFiles/cmTC_2c037.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_2c037.js
+FAILED: cmTC_2c037.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_uitoa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_2c037.dir/CheckFunctionExists.c.o  -o cmTC_2c037.js   && :
+error: undefined symbol: _uitoa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpxAVoKO.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_a9071"
+[1/2] Building C object CMakeFiles/cmTC_a9071.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a9071.js
+FAILED: cmTC_a9071.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_ultoa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_a9071.dir/CheckFunctionExists.c.o  -o cmTC_a9071.js   && :
+error: undefined symbol: _ultoa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpIR6jPe.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_5c7d3"
+[1/2] Building C object CMakeFiles/cmTC_5c7d3.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5c7d3.js
+FAILED: cmTC_5c7d3.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_i64toa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_5c7d3.dir/CheckFunctionExists.c.o  -o cmTC_5c7d3.js   && :
+error: undefined symbol: _i64toa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmplirvmN.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_4df9c"
+[1/2] Building C object CMakeFiles/cmTC_4df9c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4df9c.js
+FAILED: cmTC_4df9c.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_ui64toa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_4df9c.dir/CheckFunctionExists.c.o  -o cmTC_4df9c.js   && :
+error: undefined symbol: _ui64toa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpbg9zEN.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_fd332"
+[1/2] Building C object CMakeFiles/cmTC_fd332.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_fd332.js
+FAILED: cmTC_fd332.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_stricmp -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_fd332.dir/CheckFunctionExists.c.o  -o cmTC_fd332.js   && :
+error: undefined symbol: _stricmp
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpJOetIB.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_b54fe"
+[1/2] Building C object CMakeFiles/cmTC_b54fe.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_b54fe.js
+FAILED: cmTC_b54fe.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_strnicmp -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_b54fe.dir/CheckFunctionExists.c.o  -o cmTC_b54fe.js   && :
+error: undefined symbol: _strnicmp
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpoupndc.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function setjmp exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_42b8d"
+[1/2] Building C object CMakeFiles/cmTC_42b8d.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: declaration of built-in function 'setjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS setjmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_42b8d.js
+FAILED: cmTC_42b8d.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=setjmp -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_42b8d.dir/CheckFunctionExists.c.o  -o cmTC_42b8d.js   && :
+0  llc                      0x000000010b542208 llvm::sys::PrintStackTrace(llvm::raw_ostream&) + 40
+1  llc                      0x000000010b542836 SignalHandler(int) + 358
+2  libsystem_platform.dylib 0x00007fff68da7f5a _sigtramp + 26
+3  libsystem_platform.dylib 0x00007fdec4813a40 _sigtramp + 1537653504
+4  llc                      0x000000010afd92a3 std::__1::pair<llvm::StringMapIterator<llvm::ConstantDataSequential*>, bool> llvm::StringMap<llvm::ConstantDataSequential*, llvm::MallocAllocator>::try_emplace<llvm::ConstantDataSequential*>(llvm::StringRef, llvm::ConstantDataSequential*&&) + 35
+5  llc                      0x000000010afd1578 llvm::ConstantDataSequential::getImpl(llvm::StringRef, llvm::Type*) + 120
+6  llc                      0x000000010b6b4b8f (anonymous namespace)::FlattenGlobals::runOnModule(llvm::Module&) + 2591
+7  llc                      0x000000010b05de18 llvm::legacy::PassManagerImpl::run(llvm::Module&) + 920
+8  llc                      0x000000010a878e54 compileModule(char**, llvm::LLVMContext&) + 10516
+9  llc                      0x000000010a87632b main + 1259
+10 libdyld.dylib            0x00007fff68a99015 start + 1
+11 libdyld.dylib            0x000000000000000c start + 2539024376
+Stack dump:
+0.	Program arguments: /Users/jamesfolk/Work/tools/emsdk/clang/e1.38.13_64bit/llc /tmp/tmpWXZi5F/cmTC_42b8d.bc -march=js -filetype=asm -o /tmp/tmpKH1YS4.4.js -emscripten-stack-size=5242880 -O0 -emscripten-assertions=1 -emscripten-no-aliasing-function-pointers -emscripten-global-base=8 -emscripten-no-exit-runtime 
+1.	Running pass 'Flatten global variable initializers into byte arrays' on module '/tmp/tmpWXZi5F/cmTC_42b8d.bc'.
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc.py", line 3092, in <module>
+    sys.exit(run())
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc.py", line 1808, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/tools/shared.py", line 2253, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 2328, in _main
+    return temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/tools/tempfiles.py", line 98, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 2333, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 2259, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 96, in emscript
+    backend_output = compile_js(infile, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 125, in compile_js
+    jsrun.timeout_run(subprocess.Popen(backend_args, stdout=subprocess.PIPE, universal_newlines=True), note_args=backend_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/tools/jsrun.py", line 24, in timeout_run
+    raise Exception('Subprocess "' + ' '.join(note_args) + '" failed with exit code ' + str(proc.returncode) + '!')
+Exception: Subprocess "/Users/jamesfolk/Work/tools/emsdk/clang/e1.38.13_64bit/llc /tmp/tmpWXZi5F/cmTC_42b8d.bc -march=js -filetype=asm -o /tmp/tmpKH1YS4.4.js -emscripten-stack-size=5242880 -O0 -emscripten-assertions=1 -emscripten-no-aliasing-function-pointers -emscripten-global-base=8 -emscripten-no-exit-runtime" failed with exit code -11!
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_90fc9"
+[1/2] Building C object CMakeFiles/cmTC_90fc9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_90fc9.js
+FAILED: cmTC_90fc9.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=sysctlbyname -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_90fc9.dir/CheckFunctionExists.c.o  -o cmTC_90fc9.js   && :
+error: undefined symbol: sysctlbyname
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpODybvp.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_fabc9"
+[1/2] Building C object CMakeFiles/cmTC_fabc9.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'alloca' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'alloca' is a builtin with type 'void *(unsigned long)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_fabc9.js
+FAILED: cmTC_fabc9.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=alloca -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_fabc9.dir/CheckFunctionExists.c.o  -o cmTC_fabc9.js   && :
+error: undefined symbol: alloca
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpb0Fo53.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_1a79c"
+[1/2] Building C object CMakeFiles/cmTC_1a79c.dir/src.c.o
+FAILED: CMakeFiles/cmTC_1a79c.dir/src.c.o 
+/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc   -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2 -o CMakeFiles/cmTC_1a79c.dir/src.c.o   -c src.c
+clang: error: unknown argument: '-mpreferred-stack-boundary=2'
+ERROR:root:compiler frontend failed to generate LLVM bitcode, halting
+ninja: build stopped: subcommand failed.
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_d1bfb"
+[1/2] Building C object CMakeFiles/cmTC_d1bfb.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d1bfb.js
+FAILED: cmTC_d1bfb.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_strrev -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_d1bfb.dir/CheckFunctionExists.c.o  -o cmTC_d1bfb.js   && :
+error: undefined symbol: _strrev
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpjMkCJc.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_7ea6e"
+[1/2] Building C object CMakeFiles/cmTC_7ea6e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7ea6e.js
+FAILED: cmTC_7ea6e.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_strupr -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_7ea6e.dir/CheckFunctionExists.c.o  -o cmTC_7ea6e.js   && :
+error: undefined symbol: _strupr
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpe6eRJ9.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_009d1"
+[1/2] Building C object CMakeFiles/cmTC_009d1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_009d1.js
+FAILED: cmTC_009d1.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_strlwr -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_009d1.dir/CheckFunctionExists.c.o  -o cmTC_009d1.js   && :
+error: undefined symbol: _strlwr
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpA0gy_Q.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_4547a"
+[1/2] Building C object CMakeFiles/cmTC_4547a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4547a.js
+FAILED: cmTC_4547a.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=itoa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_4547a.dir/CheckFunctionExists.c.o  -o cmTC_4547a.js   && :
+error: undefined symbol: itoa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpYIIQOI.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_c4ae9"
+[1/2] Building C object CMakeFiles/cmTC_c4ae9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c4ae9.js
+FAILED: cmTC_c4ae9.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_ltoa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_c4ae9.dir/CheckFunctionExists.c.o  -o cmTC_c4ae9.js   && :
+error: undefined symbol: _ltoa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpeG03jH.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_8d553"
+[1/2] Building C object CMakeFiles/cmTC_8d553.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_8d553.js
+FAILED: cmTC_8d553.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_uitoa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_8d553.dir/CheckFunctionExists.c.o  -o cmTC_8d553.js   && :
+error: undefined symbol: _uitoa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpFc3WOj.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_4e44d"
+[1/2] Building C object CMakeFiles/cmTC_4e44d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4e44d.js
+FAILED: cmTC_4e44d.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_ultoa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_4e44d.dir/CheckFunctionExists.c.o  -o cmTC_4e44d.js   && :
+error: undefined symbol: _ultoa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpjZoIq8.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_43d58"
+[1/2] Building C object CMakeFiles/cmTC_43d58.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_43d58.js
+FAILED: cmTC_43d58.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_i64toa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_43d58.dir/CheckFunctionExists.c.o  -o cmTC_43d58.js   && :
+error: undefined symbol: _i64toa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpCk024v.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_9901e"
+[1/2] Building C object CMakeFiles/cmTC_9901e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_9901e.js
+FAILED: cmTC_9901e.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_ui64toa -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_9901e.dir/CheckFunctionExists.c.o  -o cmTC_9901e.js   && :
+error: undefined symbol: _ui64toa
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpIIWnoy.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_33d3b"
+[1/2] Building C object CMakeFiles/cmTC_33d3b.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_33d3b.js
+FAILED: cmTC_33d3b.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_stricmp -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_33d3b.dir/CheckFunctionExists.c.o  -o cmTC_33d3b.js   && :
+error: undefined symbol: _stricmp
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmp4WMVBI.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_84a20"
+[1/2] Building C object CMakeFiles/cmTC_84a20.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_84a20.js
+FAILED: cmTC_84a20.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=_strnicmp -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_84a20.dir/CheckFunctionExists.c.o  -o cmTC_84a20.js   && :
+error: undefined symbol: _strnicmp
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpNvA6Hl.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function setjmp exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_7f00c"
+[1/2] Building C object CMakeFiles/cmTC_7f00c.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: declaration of built-in function 'setjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS setjmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_7f00c.js
+FAILED: cmTC_7f00c.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=setjmp -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_7f00c.dir/CheckFunctionExists.c.o  -o cmTC_7f00c.js   && :
+0  llc                      0x00000001071c3208 llvm::sys::PrintStackTrace(llvm::raw_ostream&) + 40
+1  llc                      0x00000001071c3836 SignalHandler(int) + 358
+2  libsystem_platform.dylib 0x00007fff68da7f5a _sigtramp + 26
+3  libsystem_platform.dylib 0x00007ff1b0013a40 _sigtramp + 1193720576
+4  llc                      0x0000000106c5a2a3 std::__1::pair<llvm::StringMapIterator<llvm::ConstantDataSequential*>, bool> llvm::StringMap<llvm::ConstantDataSequential*, llvm::MallocAllocator>::try_emplace<llvm::ConstantDataSequential*>(llvm::StringRef, llvm::ConstantDataSequential*&&) + 35
+5  llc                      0x0000000106c52578 llvm::ConstantDataSequential::getImpl(llvm::StringRef, llvm::Type*) + 120
+6  llc                      0x0000000107335b8f (anonymous namespace)::FlattenGlobals::runOnModule(llvm::Module&) + 2591
+7  llc                      0x0000000106cdee18 llvm::legacy::PassManagerImpl::run(llvm::Module&) + 920
+8  llc                      0x00000001064f9e54 compileModule(char**, llvm::LLVMContext&) + 10516
+9  llc                      0x00000001064f732b main + 1259
+10 libdyld.dylib            0x00007fff68a99015 start + 1
+11 libdyld.dylib            0x000000000000000c start + 2539024376
+Stack dump:
+0.	Program arguments: /Users/jamesfolk/Work/tools/emsdk/clang/e1.38.13_64bit/llc /tmp/tmpRiqJlz/cmTC_7f00c.bc -march=js -filetype=asm -o /tmp/tmpU5ecVJ.4.js -emscripten-stack-size=5242880 -O0 -emscripten-assertions=1 -emscripten-no-aliasing-function-pointers -emscripten-global-base=8 -emscripten-no-exit-runtime 
+1.	Running pass 'Flatten global variable initializers into byte arrays' on module '/tmp/tmpRiqJlz/cmTC_7f00c.bc'.
+Traceback (most recent call last):
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc.py", line 3092, in <module>
+    sys.exit(run())
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc.py", line 1808, in run
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/tools/shared.py", line 2253, in emscripten
+    emscripten._main(cmdline)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 2328, in _main
+    return temp_files.run_and_clean(lambda: main(
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/tools/tempfiles.py", line 98, in run_and_clean
+    return func()
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 2333, in <lambda>
+    DEBUG=DEBUG,
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 2259, in main
+    temp_files=temp_files, DEBUG=DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 96, in emscript
+    backend_output = compile_js(infile, temp_files, DEBUG)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emscripten.py", line 125, in compile_js
+    jsrun.timeout_run(subprocess.Popen(backend_args, stdout=subprocess.PIPE, universal_newlines=True), note_args=backend_args)
+  File "/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/tools/jsrun.py", line 24, in timeout_run
+    raise Exception('Subprocess "' + ' '.join(note_args) + '" failed with exit code ' + str(proc.returncode) + '!')
+Exception: Subprocess "/Users/jamesfolk/Work/tools/emsdk/clang/e1.38.13_64bit/llc /tmp/tmpRiqJlz/cmTC_7f00c.bc -march=js -filetype=asm -o /tmp/tmpU5ecVJ.4.js -emscripten-stack-size=5242880 -O0 -emscripten-assertions=1 -emscripten-no-aliasing-function-pointers -emscripten-global-base=8 -emscripten-no-exit-runtime" failed with exit code -11!
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_54529"
+[1/2] Building C object CMakeFiles/cmTC_54529.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_54529.js
+FAILED: cmTC_54529.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=sysctlbyname -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_54529.dir/CheckFunctionExists.c.o  -o cmTC_54529.js   && :
+error: undefined symbol: sysctlbyname
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpMpoKT2.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/ninja" "cmTC_2f4c6"
+[1/2] Building C object CMakeFiles/cmTC_2f4c6.dir/CheckFunctionExists.c.o
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'alloca' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: 'alloca' is a builtin with type 'void *(unsigned long)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_2f4c6.js
+FAILED: cmTC_2f4c6.js 
+: && /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emcc -DCHECK_FUNCTION_EXISTS=alloca -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s WASM=0   CMakeFiles/cmTC_2f4c6.dir/CheckFunctionExists.c.o  -o cmTC_2f4c6.js   && :
+error: undefined symbol: alloca
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+Error: Aborting compilation due to previous errors
+ERROR:root:'/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/compiler.js /tmp/tmpB116xi.txt /Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/src/library_pthread_stub.js' failed (1)
+ninja: build stopped: subcommand failed.
+
+
