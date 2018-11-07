@@ -306,7 +306,7 @@ ESD_SHARED:BOOL=ON
 EXECUTABLE_GITHUB_ACCOUNT:STRING=njligames
 
 //No help, variable specified on the command line.
-EXECUTABLE_GITHUB_BRANCH:STRING=feature/more_targets
+EXECUTABLE_GITHUB_BRANCH:STRING=master
 
 //No help, variable specified on the command line.
 EXECUTABLE_GITHUB_REPOSITORY:STRING=njligames-njlic_engine
