@@ -23,3 +23,8 @@ NJLIC-exe.wasm.map
 NJLIC-exe.wast
 
 
+.DS_Store
+CMakeFiles/Export/lib/cmake/NJLIC/NJLICTargets-minsizerel.cmake
+libNJLIC-lua-swig-bullet3-static.a
+libNJLIC-lua-swig-njlic-static.a
+libNJLIC-static.a
