@@ -46,7 +46,7 @@ CMAKE_AR:FILEPATH=/Users/jamesfolk/Work/tools/emsdk/emscripten/1.38.13/emar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=MinSizeRel
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //No help, variable specified on the command line.
 CMAKE_CROSSCOMPILING_EMULATOR:UNINITIALIZED="/Users/jamesfolk/Work/tools/emsdk/node/8.9.1_64bit/bin/node"
@@ -151,7 +151,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/install/MinSizeRel
+CMAKE_INSTALL_PREFIX:PATH=/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/install/Debug
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -1161,5 +1161,5 @@ SWIG_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SWIG_VERSION
 SWIG_VERSION-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/install/MinSizeRel
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/install/Debug
 
