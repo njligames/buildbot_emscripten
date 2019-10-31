@@ -23,3 +23,10 @@ NJLIC-exe.wasm.map
 NJLIC-exe.wast
 
 
+thirdparty
+libNJLIC-lua-swig-bullet3-static.a
+libNJLIC-lua-swig-njlic-static.a
+libNJLIC-static.a
+.DS_Store
+NJLIC-1.1.3-Emscripten.zip
+libNJLIC-lua-swig-glm-static.a

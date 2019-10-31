@@ -72,7 +72,7 @@
 #define HAVE_SYS_TYPES_H 1
 #define HAVE_WCHAR_H 1
 /* #undef HAVE_PTHREAD_NP_H */
-#define HAVE_LIBUNWIND_H 1
+/* #undef HAVE_LIBUNWIND_H */
 
 /* C library functions */
 #define HAVE_MALLOC 1
@@ -161,7 +161,7 @@
 /* #undef HAVE_CLOCK_GETTIME */
 /* #undef HAVE_GETPAGESIZE */
 #define HAVE_MPROTECT 1
-#define HAVE_ICONV 1
+/* #undef HAVE_ICONV */
 /* #undef HAVE_PTHREAD_SETNAME_NP */
 /* #undef HAVE_PTHREAD_SET_NAME_NP */
 /* #undef HAVE_SEM_TIMEDWAIT */
