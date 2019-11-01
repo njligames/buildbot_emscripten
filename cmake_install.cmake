@@ -49,6 +49,16 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/html5" TYPE FILE FILES
+    "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/index.html"
+    "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/index.js"
+    "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/index.wasm"
+    "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/index.wasm.map"
+    "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/index.wast"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/NJLIC/NJLICTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/NJLIC/NJLICTargets.cmake"
