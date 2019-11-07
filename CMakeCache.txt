@@ -322,6 +322,9 @@ DOWNLOAD_TINYXML2_LIBRARY:BOOL=OFF
 //vorbis typedef
 DOWNLOAD_VORBIS_LIBRARY:BOOL=ON
 
+//zlib typedef
+DOWNLOAD_ZLIB_LIBRARY:BOOL=ON
+
 //Support the dummy audio driver
 DUMMYAUDIO:BOOL=ON
 
@@ -433,7 +436,7 @@ NAS:BOOL=ON
 NAS_SHARED:BOOL=ON
 
 //Dependencies for the target
-NJLIC-static_LIB_DEPENDS:STATIC=general;Bullet2FileLoader;general;Bullet3Collision;general;Bullet3Common;general;Bullet3Dynamics;general;Bullet3Geometry;general;Bullet3OpenCL_clew;general;BulletCollision;general;BulletDynamics;general;BulletFileLoader;general;BulletInverseDynamics;general;BulletInverseDynamicsUtils;general;BulletSoftBody;general;BulletWorldImporter;general;BulletXmlWorldImporter;general;ConvexDecomposition;general;GIMPACTUtils;general;HACD;general;LinearMath;general;imgui;general;ImGuizmo;general;ogg;general;vorbis;general;vorbisenc;general;vorbisfile;general;m;general;SDL2;general;NJLIC-lua-swig-njlic-static;general;NJLIC-lua-swig-bullet3-static;general;NJLIC-lua-swig-glm-static;general;-s FULL_ES2=1;general;-s TOTAL_MEMORY=1GB;general;-s ERROR_ON_UNDEFINED_SYMBOLS=0;general;-s WASM=1;general;-s EXTRA_EXPORTED_RUNTIME_METHODS=['Pointer_stringify'];general;--shell-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/release_shell.html;general;-Wl,--no-undefined;general;--embed-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/gameproject/assets@/;
+NJLIC-static_LIB_DEPENDS:STATIC=general;Bullet2FileLoader;general;Bullet3Collision;general;Bullet3Common;general;Bullet3Dynamics;general;Bullet3Geometry;general;Bullet3OpenCL_clew;general;BulletCollision;general;BulletDynamics;general;BulletFileLoader;general;BulletInverseDynamics;general;BulletInverseDynamicsUtils;general;BulletSoftBody;general;BulletWorldImporter;general;BulletXmlWorldImporter;general;ConvexDecomposition;general;GIMPACTUtils;general;HACD;general;LinearMath;general;imgui;general;ImGuizmo;general;z;general;ogg;general;vorbis;general;vorbisenc;general;vorbisfile;general;m;general;SDL2;general;NJLIC-lua-swig-njlic-static;general;NJLIC-lua-swig-bullet3-static;general;NJLIC-lua-swig-glm-static;general;-s FULL_ES2=1;general;-s TOTAL_MEMORY=1GB;general;-s ERROR_ON_UNDEFINED_SYMBOLS=0;general;-s WASM=1;general;-s EXTRA_EXPORTED_RUNTIME_METHODS=['Pointer_stringify'];general;--shell-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/release_shell.html;general;-Wl,--no-undefined;general;--embed-file /Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/gameproject/assets@/;
 
 //Value Computed by CMake
 NJLIC_BINARY_DIR:STATIC=/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten
@@ -703,6 +706,27 @@ THIRDPARTY_VORBIS_RELEASE_URL:STRING=https://www.dropbox.com/s/i0kfmvo8xx5o25u/l
 //The URL for Release Bullet3
 THIRDPARTY_VORBIS_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/njsxgnag0dnl2pc/libvorbis_emscripten_RelWithDebugInfo.tar.gz?dl=0
 
+//The URL for Debug Bullet3
+THIRDPARTY_ZLIB_DEBUG_URL:STRING=https://www.dropbox.com/s/b6qzjqwm4gniew1/libzlib_emscripten_Debug.tar.gz?dl=0
+
+//Use ZLib library
+THIRDPARTY_ZLIB_DOWNLOAD:BOOL=ON
+
+//Use zlib library
+THIRDPARTY_ZLIB_ENABLED:BOOL=ON
+
+//The URL for include Bullet3
+THIRDPARTY_ZLIB_INCLUDE_URL:STRING=https://www.dropbox.com/s/9r6ej0lupnzkkpe/libzlib_include.tar.gz?dl=0
+
+//The URL for Release Bullet3
+THIRDPARTY_ZLIB_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/u5o7sxbkw3nfi0m/libzlib_emscripten_MinSizeRel.tar.gz?dl=0
+
+//The URL for Release Bullet3
+THIRDPARTY_ZLIB_RELEASE_URL:STRING=https://www.dropbox.com/s/nhqvlwrbug69fz3/libzlib_emscripten_Release.tar.gz?dl=0
+
+//The URL for Release Bullet3
+THIRDPARTY_ZLIB_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/nlu8mdh7r9qys1q/libzlib_emscripten_RelWithDebugInfo.tar.gz?dl=0
+
 //bullet3 typedef
 USE_BULLET3_LIBRARY:BOOL=ON
 
@@ -735,6 +759,9 @@ USE_TINYXML2_LIBRARY:BOOL=OFF
 
 //vorbis include
 USE_VORBIS_LIBRARY:BOOL=ON
+
+//zlib typedef
+USE_ZLIB_LIBRARY:BOOL=ON
 
 //Use Cocoa video driver
 VIDEO_COCOA:BOOL=OFF
@@ -843,6 +870,9 @@ stbimages_URL_INCLUDE:STRING=https://www.dropbox.com/s/u9c4ruts1wac41k/stb_image
 
 //The URL for the include files for thirdparty/vorbis/lib/emscripten/include
 vorbis_URL_INCLUDE:STRING=https://www.dropbox.com/s/erbp79zazwqsknv/libvorbis_includes.tar.gz?dl=0
+
+//The URL for the include files for thirdparty/zlib/lib/emscripten/include
+zlib_URL_INCLUDE:STRING=https://www.dropbox.com/s/9r6ej0lupnzkkpe/libzlib_include.tar.gz?dl=0
 
 
 ########################

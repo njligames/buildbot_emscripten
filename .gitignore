@@ -22,4 +22,9 @@ NJLIC-exe.wasm
 NJLIC-exe.wasm.map
 NJLIC-exe.wast
 
+libNJLIC-lua-swig-njlic-static.a
+libNJLIC-static.a
+libNJLIC-lua-swig-njlic-static.a
+libNJLIC-static.a
+
 
