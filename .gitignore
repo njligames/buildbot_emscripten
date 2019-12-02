@@ -27,4 +27,4 @@ libNJLIC-static.a
 libNJLIC-lua-swig-njlic-static.a
 libNJLIC-static.a
 
-
+*.zip

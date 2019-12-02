@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/install/RelWithDebInfo")
+  set(CMAKE_INSTALL_PREFIX "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/install/Release")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -76,8 +76,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/NJLIC" TYPE FILE FILES "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/Export/lib/cmake/NJLIC/NJLICTargets.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/NJLIC" TYPE FILE FILES "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/Export/lib/cmake/NJLIC/NJLICTargets-relwithdebinfo.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/NJLIC" TYPE FILE FILES "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/CMakeFiles/Export/lib/cmake/NJLIC/NJLICTargets-release.cmake")
   endif()
 endif()
 
@@ -102,14 +102,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/install/RelWithDebInfo/share/aclocal/njlic.m4")
+   "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/install/Release/share/aclocal/njlic.m4")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/install/RelWithDebInfo/share/aclocal" TYPE FILE FILES "/Users/jamesfolk/Work/test_project_repo/njlic.m4")
+file(INSTALL DESTINATION "/Users/jamesfolk/Work/test_project_repo/buildbot_emscripten/install/Release/share/aclocal" TYPE FILE FILES "/Users/jamesfolk/Work/test_project_repo/njlic.m4")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
